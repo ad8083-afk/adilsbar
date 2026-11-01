@@ -7,3 +7,5 @@ desktop.ini
 
 # Kundenunterlage, liegt in Google Drive
 Produktanforderungen.md
+# Test-Ausgaben
+.playwright-mcp/
