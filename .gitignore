@@ -1,0 +1,9 @@
+# Lokale Werkzeug-Einstellungen
+.claude/
+# Betriebssystem
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Kundenunterlage, liegt in Google Drive
+Produktanforderungen.md
