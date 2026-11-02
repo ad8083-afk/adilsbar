@@ -124,7 +124,7 @@ function renderNav(){
    `<label class="such"><input id="q" type="search" placeholder="Suchen" value="${Bar.esc(state.q)}" autocomplete="off"></label>`;
   $('#q').oninput=e=>{state.q=e.target.value;render()};
 }
-function karte(r){return `<div style="position:relative"><button class="karte" style="width:100%;height:100%" data-id="${r.id}"><div class="im"><img src="${r.bild}" alt="${Bar.esc(r.name)}" loading="lazy"></div><div class="tx"><h3>${Bar.esc(r.name)}</h3><small>${Bar.esc(r.glas)} · ${r.zeit} Min.</small></div></button>
+function karte(r){return `<div style="position:relative"><button class="karte" style="width:100%;height:100%" data-id="${r.id}"><div class="im"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}" loading="lazy"></div><div class="tx"><h3>${Bar.esc(r.name)}</h3><small>${Bar.esc(r.glas)} · ${r.zeit} Min.</small></div></button>
   <button class="hz ${Bar.isFav(r.id)?'an':''}" data-fav="${r.id}" aria-label="Favorit">${herz}</button></div>`}
 function render(){
   const f=Bar.rezepte.filter(r=>(state.kat==='alle'||(state.kat==='fav'?Bar.isFav(r.id):r.kategorie===state.kat))&&Bar.suche(r,state.q));
@@ -135,7 +135,7 @@ function render(){
 function zeigen(id){cur=Bar.byId(id);p=1;paint();tisch.classList.add('offen');tisch.scrollTop=0;document.body.style.overflow='hidden'}
 function paint(){const r=cur,s=tisch.scrollTop;
   tisch.innerHTML=`<button class="zu" data-zu aria-label="Zurück">${Bar.icon.left}</button>
-  <article class="blatt"><div class="ph"><img src="${r.bild}" alt="${Bar.esc(r.name)}"></div><div class="in">
+  <article class="blatt"><div class="ph"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}"></div><div class="in">
    <div class="kat">${Bar.katName(r.kategorie)}</div><h2>${Bar.esc(r.name)}</h2><p class="b">${Bar.esc(r.beschreibung)}</p>
    <div class="meta"><span>${Bar.esc(r.glas)}</span><span>${r.technik}</span><span>${Bar.staerkeText(r.staerke)}</span><span>${r.zeit} Min.</span></div>
    ${r.hinweis?`<div class="hint">${Bar.esc(r.hinweis)}</div>`:''}

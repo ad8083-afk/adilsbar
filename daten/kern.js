@@ -14,7 +14,10 @@
     if (!q) return true;
     return [r.name, r.beschreibung, r.glas, r.garnitur, Bar.katName(r.kategorie), ...r.geschmack, ...r.zutaten.map((z) => z.n)].join(" ").toLowerCase().includes(q);
   };
-  Bar.credit = (r) => `Foto: ${Bar.esc(r.credit.autor)}, ${Bar.esc(r.credit.lizenz)} (<a href="${Bar.esc(r.credit.quelle)}" target="_blank" rel="noopener">Wikimedia Commons</a>)`;
+  /* Foto oder, solange noch keins da ist, eine Platzhalter-Grafik (Glas in Bernstein auf dunklem Grund) */
+  const PLATZHALTER = "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><radialGradient id="g" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#3a2a1c"/><stop offset="1" stop-color="#120f0d"/></radialGradient></defs><rect width="400" height="400" fill="url(#g)"/><g transform="translate(200 200) scale(.45) translate(-200 -210)" fill="none" stroke="#ffb04a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".85"><path d="M120 110h160l-80 110z"/><path d="M200 220v90M150 310h100"/><path d="M146 146h108" opacity=".5"/><circle cx="262" cy="96" r="16"/></g></svg>');
+  Bar.bild = (r) => r.bild || PLATZHALTER;
+  Bar.credit = (r) => !r.credit ? "Noch kein Foto: Platzhalter-Grafik." : `Foto: ${Bar.esc(r.credit.autor)}, ${Bar.esc(r.credit.lizenz)} (<a href="${Bar.esc(r.credit.quelle)}" target="_blank" rel="noopener">Wikimedia Commons</a>)`;
   Bar.staerkeText = (s) => ["alkoholfrei", "sehr mild", "mild", "mittel", "kräftig", "sehr stark"][s] || "";
 
   /* Geschmacks-Empfehlung: Jeder wählt, was er mag, die Rezepte werden nach Passung sortiert. */
@@ -26,7 +29,8 @@
   /* Spirituosen: "basis" eines Rezepts = jede Sorte mit mindestens 15 % Anteil am reinen Alkohol */
   Bar.BASIS = [
     { id: "rum", name: "Rum" }, { id: "gin", name: "Gin" }, { id: "wodka", name: "Wodka" }, { id: "tequila", name: "Tequila" },
-    { id: "whiskey", name: "Whiskey" }, { id: "cachaca", name: "Cachaça" }, { id: "likoer", name: "Likör" },
+    { id: "whiskey", name: "Whiskey" }, { id: "brandy", name: "Cognac & Brandy" }, { id: "mezcal", name: "Mezcal" },
+    { id: "cachaca", name: "Cachaça" }, { id: "likoer", name: "Likör" },
     { id: "bitter", name: "Bitter & Amaro" }, { id: "wermut", name: "Wermut" }, { id: "schaumwein", name: "Prosecco" },
   ];
   Bar.ALKOHOL = [{ id: "frei", name: "Alkoholfrei" }, { id: "niedrig", name: "Niedrig", text: "bis 10 %" }, { id: "mittel", name: "Mittel", text: "11 bis 17 %" }, { id: "hoch", name: "Hoch", text: "ab 18 %" }];

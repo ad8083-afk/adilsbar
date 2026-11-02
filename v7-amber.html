@@ -369,7 +369,7 @@ function ergebnisse(){
   const pct=x=>zeigeProzent?`<span class="match">${Math.round(x.punkte*100)} % passend</span>`:'';
   res.innerHTML=`${treffer.length?'':'<div class="hinweis">Genau diese Kombination gibt es bei uns nicht. Das hier kommt deinem Geschmack am nächsten. Nimm einen Filter heraus, um mehr zu sehen.</div>'}
    <h2 class="t" style="margin-top:0">${treffer.length?(treffer.length===1?'Dein Drink':'Dein perfekter Drink'):'Am nächsten dran'}</h2>
-   <article class="feat"><div class="im"><img src="${best.r.bild}" alt="${Bar.esc(best.r.name)}"></div><div class="tx">
+   <article class="feat"><div class="im"><img src="${Bar.bild(best.r)}" alt="${Bar.esc(best.r.name)}"></div><div class="tx">
      <div class="eb">${Bar.katName(best.r.kategorie)}</div><h3>${Bar.esc(best.r.name)}</h3>${pct(best)}
      <div class="why">${warum(best.r)}</div><div class="alk2">${Bar.alkoholText(best.r)} · ${Bar.alkoholGramm(best.r)}</div><p>${Bar.esc(best.r.beschreibung)}</p>
      <div class="btns"><button class="a" data-go="${best.r.id}">Zubereitung starten</button><button class="b" data-id="${best.r.id}">Rezept ansehen</button></div></div></article>
@@ -379,7 +379,7 @@ function ergebnisse(){
 }
 const beobachter=new IntersectionObserver(e=>{pill.hidden=!aktiv()||e[0].isIntersecting&&e[0].intersectionRatio>0.15},{threshold:[0,.15,.4]});
 pill.onclick=()=>$('#res').scrollIntoView({behavior:'smooth'});
-function karte(r,badge=''){return `<div style="position:relative;height:100%"><button class="card" data-id="${r.id}"><div class="im"><img src="${r.bild}" alt="${Bar.esc(r.name)}" loading="lazy">${badge}</div><div class="tx"><h3>${Bar.esc(r.name)}</h3><small>${Bar.esc(r.glas)} · ${r.zeit} Min.</small><small class="alk">${Bar.alkoholText(r)}</small></div></button>
+function karte(r,badge=''){return `<div style="position:relative;height:100%"><button class="card" data-id="${r.id}"><div class="im"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}" loading="lazy">${badge}</div><div class="tx"><h3>${Bar.esc(r.name)}</h3><small>${Bar.esc(r.glas)} · ${r.zeit} Min.</small><small class="alk">${Bar.alkoholText(r)}</small></div></button>
   <button class="heart ${Bar.isFav(r.id)?'an':''}" data-fav="${r.id}" aria-label="Favorit">${herz}</button></div>`}
 
 /* ---------- Alle Rezepte ---------- */
@@ -411,7 +411,7 @@ function zufall(){
   const ng=$('#ng');if(ng)ng.onchange=()=>{nurGeschmack=ng.checked;mischen();zufall()};
   stapel();pill.hidden=true;
 }
-const karteHtml=(r,vorn)=>`<div class="tc ${vorn?'':'hinten'}" data-id="${r.id}"><img src="${r.bild}" alt="${Bar.esc(r.name)}" draggable="false">
+const karteHtml=(r,vorn)=>`<div class="tc ${vorn?'':'hinten'}" data-id="${r.id}"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}" draggable="false">
   ${vorn?'<div class="stamp ja">GEFÄLLT MIR</div><div class="stamp nein">HEUTE NICHT</div>':''}
   <div class="tc-info"><div class="k">${Bar.katName(r.kategorie)}</div><h2>${Bar.esc(r.name)}</h2><p>${Bar.esc(r.beschreibung)}</p>
   <div class="tags"><span class="alkt">${Bar.alkoholText(r)}</span><span>${r.zeit} Min.</span>${r.geschmack.slice(0,2).map(g=>`<span>${g}</span>`).join('')}</div></div></div>`;
@@ -460,7 +460,7 @@ function zeigen(id){
   const r=Bar.byId(id); let p=1;
   const prof=Bar.GESCHMACK.filter(g=>r.profil[g.id]).map(g=>`<div><span>${g.name}</span><i>${punkte(r.profil[g.id])}</i></div>`).join('');
   sheet.innerHTML=`<button class="zu" aria-label="Zurück">${Bar.icon.left}</button>
-  <article class="sh-in"><div class="sh-img"><img src="${r.bild}" alt="${Bar.esc(r.name)}"></div>
+  <article class="sh-in"><div class="sh-img"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}"></div>
   <div class="sh-txt"><div class="kat">${Bar.katName(r.kategorie)}</div><h2>${Bar.esc(r.name)}</h2><p class="b">${Bar.esc(r.beschreibung)}</p>
     <div class="meta"><span class="alkm">${Bar.alkoholText(r)}</span><span>${Bar.alkoholGramm(r)}</span><span>${Bar.esc(r.glas)}</span><span>${r.technik}</span><span>${r.zeit} Min.</span></div>
     ${Bar.alkoholStufe(r)==='frei'?'':`<div class="fahr"><b>Alkohol:</b> Schätzwert aus den Zutaten, inklusive Eis-Verdünnung. ${Bar.FAHRHINWEIS}</div>`}
@@ -492,7 +492,7 @@ function bestellungen(){
   const q=Bar.queue.get(),gesamt=Bar.queue.gesamt(),anz=Bar.queue.anzahl();
   dr.innerHTML=`<div class="dr-top"><h2>Bestellungen</h2><button class="dr-x" data-b="zu" aria-label="Schließen">${Bar.icon.x}</button></div>
   ${q.length?`<div class="sum"><div><b>${Bar.minText(gesamt)}</b><span>${anz} ${anz===1?'Drink':'Drinks'} · ${q.length} ${q.length===1?'Sorte':'Sorten'} · gesamt</span><small>Geschätzt. Fertig gegen ${uhr(gesamt)} Uhr, wenn du jetzt beginnst.</small></div><button class="play" data-b="alle" aria-label="Alle Drinks nacheinander abspielen">${Bar.icon.play}</button></div>`:''}
-  <div class="dr-list">${q.length?q.map(o=>{const r=Bar.byId(o.id);return `<div class="bst"><img src="${r.bild}" alt=""><div><div class="n">${Bar.esc(r.name)}</div><div class="z">${Bar.alkoholText(r)} · <b>${Bar.minText(Bar.dauer(r,o.n))}</b></div></div>
+  <div class="dr-list">${q.length?q.map(o=>{const r=Bar.byId(o.id);return `<div class="bst"><img src="${Bar.bild(r)}" alt=""><div><div class="n">${Bar.esc(r.name)}</div><div class="z">${Bar.alkoholText(r)} · <b>${Bar.minText(Bar.dauer(r,o.n))}</b></div></div>
     <div class="a"><div class="st"><button data-b="minus" data-u="${o.uid}" aria-label="Weniger">−</button><span>${o.n}</span><button data-b="plus" data-u="${o.uid}" aria-label="Mehr">+</button></div>
     <button class="go" data-b="go" data-u="${o.uid}">Nur diesen</button><button class="mv" data-b="hoch" data-u="${o.uid}" aria-label="Nach oben">↑</button><button class="mv" data-b="runter" data-u="${o.uid}" aria-label="Nach unten">↓</button><button class="rm" data-b="rm" data-u="${o.uid}" aria-label="Entfernen">${Bar.icon.x}</button></div></div>`}).join('')
     :'<div class="dr-leer">Noch keine Bestellungen.<br>Öffne einen Drink und tippe auf „Bestellen“.</div>'}</div>

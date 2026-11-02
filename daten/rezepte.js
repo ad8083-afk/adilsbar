@@ -623,6 +623,161 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "sidecar",
+  "name": "Sidecar",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "fruchtig"
+  ],
+  "beschreibung": "Cognac, Orangenlikör und Zitrone: der elegante Sour aus den Pariser Bars der 1920er.",
+  "garnitur": "Orangenzeste (optional Zuckerrand)",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Cognac, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "fruchtig": 2,
+   "suess": 1,
+   "herb": 1
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "alexander",
+  "name": "Alexander",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Cognac, Kakaolikör und Sahne: samtig wie ein Dessert im Glas.",
+  "garnitur": "Frisch geriebene Muskatnuss",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Crème de Cacao (braun)",
+    "v": 25
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Cognac, Crème de Cacao und Sahne in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken, damit die Sahne schön luftig wird.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Etwas Muskatnuss darüberreiben.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 3,
+   "wuerzig": 1
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -983,6 +1138,88 @@ window.REZEPTE = [
   },
   "basis": [
    "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "naked-and-famous",
+  "name": "Naked and Famous",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "rauchig",
+   "sauer"
+  ],
+  "beschreibung": "Rauchiger Mezcal trifft Kräuterlikör, Aperol und Limette: vier gleiche Teile, perfekt ausbalanciert.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Mezcal",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Gelber Chartreuse",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Aperol",
+    "v": 11
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Mezcal, Chartreuse, Aperol und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale doppelt abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "rauchig": 2,
+   "sauer": 2,
+   "bitter": 1,
+   "wuerzig": 2,
+   "suess": 1
+  },
+  "basis": [
+   "mezcal",
+   "likoer"
   ],
   "stil": [
    "modern"

@@ -109,13 +109,13 @@ function filter(){return Bar.rezepte.filter(r=>(state.kat==='alle'||(state.kat==
 function renderList(){
   $('#f').innerHTML=tabs.map(t=>`<button role="tab" aria-selected="${t.id===state.kat}" data-k="${t.id}">${t.name}</button>`).join('');
   const l=filter(),inQ=id=>queue.filter(x=>x.id===id).reduce((a,b)=>a+b.n,0);
-  $('#rows').innerHTML=l.map(r=>`<button class="row" data-id="${r.id}" aria-current="${r.id===state.sel}"><img src="${r.bild}" alt="" loading="lazy"><span><div class="n">${Bar.esc(r.name)}</div><div class="s">${Bar.esc(r.glas)}</div></span><span class="z ${inQ(r.id)?'q':''}">${inQ(r.id)?inQ(r.id)+'× bestellt':r.zeit+' Min.'}</span></button>`).join('')||'<div class="leer">Nichts gefunden.</div>';
+  $('#rows').innerHTML=l.map(r=>`<button class="row" data-id="${r.id}" aria-current="${r.id===state.sel}"><img src="${Bar.bild(r)}" alt="" loading="lazy"><span><div class="n">${Bar.esc(r.name)}</div><div class="s">${Bar.esc(r.glas)}</div></span><span class="z ${inQ(r.id)?'q':''}">${inQ(r.id)?inQ(r.id)+'× bestellt':r.zeit+' Min.'}</span></button>`).join('')||'<div class="leer">Nichts gefunden.</div>';
 }
 function renderDetail(){
   const r=Bar.byId(state.sel),d=$('#d');
   if(!r){d.innerHTML='<div class="leer">Cocktail aus der Liste wählen.</div>';d.classList.remove('show');return}
   d.innerHTML=`<button class="zu" data-zu aria-label="Zurück">${Bar.icon.left}</button>
-  <div class="hd"><img src="${r.bild}" alt="${Bar.esc(r.name)}"><div><div class="k">${Bar.katName(r.kategorie)}</div><h1>${Bar.esc(r.name)}</h1><p>${Bar.esc(r.beschreibung)}</p>
+  <div class="hd"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}"><div><div class="k">${Bar.katName(r.kategorie)}</div><h1>${Bar.esc(r.name)}</h1><p>${Bar.esc(r.beschreibung)}</p>
    <div class="tags"><span>Glas <b>${Bar.esc(r.glas)}</b></span><span>Methode <b>${r.technik}</b></span><span>Stärke <b>${Bar.staerkeText(r.staerke)}</b></span><span>Zeit <b>${r.zeit} Min.</b></span></div></div></div>
   ${r.hinweis?`<div class="hint">${Bar.esc(r.hinweis)}</div>`:''}
   <div class="sek"><h3>Zutaten für ${state.p} ${state.p===1?'Portion':'Portionen'}</h3><table class="zt">${r.zutaten.map(z=>`<tr><td>${Bar.menge(z,state.p)||'–'}</td><td>${Bar.esc(z.n)}</td></tr>`).join('')}</table>
@@ -130,7 +130,7 @@ function renderQ(){
   const gesamt=queue.reduce((a,o)=>a+Bar.dauer(Bar.byId(o.id),o.n),0),anz=queue.reduce((a,o)=>a+o.n,0);
   $('#sum').hidden=!queue.length;
   $('#sum').innerHTML=`<div><b>${Bar.minText(gesamt)}</b></div><small>${anz} ${anz===1?'Drink':'Drinks'} gesamt<br>fertig gegen ${new Date(Date.now()+gesamt*60000).toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'})} Uhr (geschätzt)</small>`;
-  $('#ql').innerHTML=queue.length?queue.map((o,i)=>{const r=Bar.byId(o.id);return `<div class="bst"><img src="${r.bild}" alt=""><div><div class="n"><span class="nr">${o.n}×</span> ${Bar.esc(r.name)}</div><small style="color:var(--muted)">${Bar.esc(r.glas)} · ca. ${Bar.minText(Bar.dauer(r,o.n))}</small></div>
+  $('#ql').innerHTML=queue.length?queue.map((o,i)=>{const r=Bar.byId(o.id);return `<div class="bst"><img src="${Bar.bild(r)}" alt=""><div><div class="n"><span class="nr">${o.n}×</span> ${Bar.esc(r.name)}</div><small style="color:var(--muted)">${Bar.esc(r.glas)} · ca. ${Bar.minText(Bar.dauer(r,o.n))}</small></div>
     <div class="a"><button class="go" data-qgo="${i}">Zubereiten</button><button data-qok="${i}">Erledigt</button></div></div>`}).join(''):'<div class="leer" style="height:200px">Keine offenen Bestellungen.</div>';
 }
 document.addEventListener('click',e=>{

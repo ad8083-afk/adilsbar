@@ -5,8 +5,8 @@ Web-App mit Cocktailrezepten, die Schritt für Schritt und freihändig durch die
 **App öffnen:** `index.html` leitet auf die aktuelle Version [`v7-amber.html`](v7-amber.html) weiter. Mit GitHub Pages: https://ad8083-afk.github.io/adilsbar/
 
 ## Funktionen (Version 7)
-- 32 Drinks: Klassiker, Modern, Exotisch & Tiki, Highballs & Longdrinks, Alkoholfrei
-- Geschmacks-Finder: Geschmack, Spirituose, Alkoholgehalt und Stil wählen, die passendsten Drinks erscheinen mit Prozent-Passung
+- 35 Drinks: Klassiker, Modern, Exotisch & Tiki, Highballs & Longdrinks, Alkoholfrei
+- Geschmacks-Finder: Geschmack, Spirituose (Rum, Gin, Wodka, Tequila, Mezcal, Whiskey, Cognac & Brandy, Cachaça, Likör, Bitter, Wermut, Prosecco), Alkoholgehalt und Stil wählen, die passendsten Drinks erscheinen mit Prozent-Passung
 - Zufallsmodus im Tinder-Stil: wischen, Herz öffnet das Rezept
 - Zubereitungsmodus mit Auto-Weiter, Vorlesen, Sprachbefehlen und Wach-Modus
 - Bestellungen mit Gesamtdauer und Playlist, die alle Drinks nacheinander abspielt

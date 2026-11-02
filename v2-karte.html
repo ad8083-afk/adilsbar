@@ -84,11 +84,11 @@ function zeile(r){
   return `<div class="eintrag ${o?'offen':''}" id="e-${r.id}"><button class="kopf" data-id="${r.id}" aria-expanded="${o}">
     <span class="n">${Bar.esc(r.name)}<i>${r.glas}</i></span>
     <span class="z">${r.zutaten.slice(0,4).map(z=>Bar.esc(z.n)).join(' · ')}</span>
-    <img class="th" src="${r.bild}" alt="" loading="lazy"></button>
+    <img class="th" src="${Bar.bild(r)}" alt="" loading="lazy"></button>
     <div class="detail">${o?detail(r):''}</div></div>`;
 }
 function detail(r){
-  return `<div class="dg"><img src="${r.bild}" alt="${Bar.esc(r.name)}"><div>
+  return `<div class="dg"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}"><div>
     <p>${Bar.esc(r.beschreibung)}</p>
     ${r.hinweis?`<div class="hint">${Bar.esc(r.hinweis)}</div>`:''}
     <h5>Zutaten <span class="port"><button data-p="-1" aria-label="Weniger">−</button><span>${state.p} ${state.p===1?'Portion':'Portionen'}</span><button data-p="1" aria-label="Mehr">+</button></span></h5>
