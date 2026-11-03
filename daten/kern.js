@@ -29,7 +29,7 @@
   /* Spirituosen: "basis" eines Rezepts = jede Sorte mit mindestens 15 % Anteil am reinen Alkohol */
   Bar.BASIS = [
     { id: "rum", name: "Rum" }, { id: "gin", name: "Gin" }, { id: "wodka", name: "Wodka" }, { id: "tequila", name: "Tequila" },
-    { id: "whiskey", name: "Whiskey" }, { id: "brandy", name: "Cognac & Brandy" }, { id: "mezcal", name: "Mezcal" },
+    { id: "whiskey", name: "Whiskey" }, { id: "brandy", name: "Cognac & Brandy" }, { id: "mezcal", name: "Mezcal" }, { id: "pisco", name: "Pisco" },
     { id: "cachaca", name: "Cachaça" }, { id: "likoer", name: "Likör" },
     { id: "bitter", name: "Bitter & Amaro" }, { id: "wermut", name: "Wermut" }, { id: "schaumwein", name: "Prosecco" },
   ];
