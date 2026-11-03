@@ -101,7 +101,7 @@ function renderTabs(){tabsEl.innerHTML=tabs.map(t=>`<button role="tab" aria-sele
 function renderGrid(){
   const list=Bar.rezepte.filter(r=>(state.kat==='alle'||(state.kat==='fav'?Bar.isFav(r.id):r.kategorie===state.kat))&&Bar.suche(r,state.q));
   grid.innerHTML=list.length?list.map(r=>`
-    <div style="position:relative"><button class="card" data-id="${r.id}"><img src="${r.bild}" alt="${Bar.esc(r.name)}" loading="lazy">
+    <div style="position:relative"><button class="card" data-id="${r.id}"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}" loading="lazy">
       <div class="t"><h3>${Bar.esc(r.name)}</h3><small>${Bar.esc(r.glas)} · ${r.zeit} Min.</small></div></button>
       <button class="heart ${Bar.isFav(r.id)?'an':''}" data-fav="${r.id}" aria-label="Favorit">${herz}</button></div>`).join('')
     :`<p class="leer">${state.kat==='fav'?'Noch keine Favoriten. Tippe auf das Herz.':'Nichts gefunden.'}</p>`;
@@ -109,7 +109,7 @@ function renderGrid(){
 function zeigen(id){
   const r=Bar.byId(id); let p=1;
   sheet.innerHTML=`<button class="zu" aria-label="Zurück">${Bar.icon.left}</button>
-  <div class="sh-in"><div class="sh-img"><img src="${r.bild}" alt="${Bar.esc(r.name)}"></div>
+  <div class="sh-in"><div class="sh-img"><img src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}"></div>
   <div class="sh-txt"><div class="kat">${Bar.katName(r.kategorie)}</div><h2>${Bar.esc(r.name)}</h2><p class="b">${Bar.esc(r.beschreibung)}</p>
     <div class="meta"><span>${Bar.esc(r.glas)}</span><span>${r.technik}</span><span>${Bar.staerkeText(r.staerke)}</span><span>${r.zeit} Min.</span>${r.geschmack.map(g=>`<span>${g}</span>`).join('')}</div>
     <h4>Zutaten <div class="port"><button data-p="-1" aria-label="Weniger">−</button><span id="pl"></span><button data-p="1" aria-label="Mehr">+</button></div></h4>

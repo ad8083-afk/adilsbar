@@ -74,7 +74,7 @@ function renderTabs(){$('#top').innerHTML=tabs.map(t=>`<button role="tab" aria-s
 function renderFeed(){
   list=Bar.rezepte.filter(r=>state.kat==='alle'||(state.kat==='fav'?Bar.isFav(r.id):r.kategorie===state.kat));
   feed.innerHTML=list.length?list.map((r,i)=>`<section class="slide" data-i="${i}">
-    <img class="bg" src="${r.bild}" alt=""><img class="ph" src="${r.bild}" alt="${Bar.esc(r.name)}" loading="${i<2?'eager':'lazy'}">
+    <img class="bg" src="${Bar.bild(r)}" alt=""><img class="ph" src="${Bar.bild(r)}" alt="${Bar.esc(r.name)}" loading="${i<2?'eager':'lazy'}">
     <div class="info"><div class="k">${Bar.katName(r.kategorie)}</div><h2>${Bar.esc(r.name)}</h2><p>${Bar.esc(r.beschreibung)}</p>
       <div class="tags"><span>${r.zeit} Min.</span><span>${Bar.staerkeText(r.staerke)}</span>${r.geschmack.slice(0,2).map(g=>`<span>${g}</span>`).join('')}</div></div>
     <div class="side"><button class="${Bar.isFav(r.id)?'an':''}" data-fav="${r.id}" aria-label="Favorit">${I.herz}</button>

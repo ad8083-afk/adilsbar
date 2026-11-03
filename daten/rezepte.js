@@ -623,6 +623,338 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "sidecar",
+  "name": "Sidecar",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "fruchtig"
+  ],
+  "beschreibung": "Cognac, Orangenlikör und Zitrone: der elegante Sour aus den Pariser Bars der 1920er.",
+  "garnitur": "Orangenzeste (optional Zuckerrand)",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Cognac, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "fruchtig": 2,
+   "suess": 1,
+   "herb": 1
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "alexander",
+  "name": "Alexander",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Cognac, Kakaolikör und Sahne: samtig wie ein Dessert im Glas.",
+  "garnitur": "Frisch geriebene Muskatnuss",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Crème de Cacao (braun)",
+    "v": 25
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Cognac, Crème de Cacao und Sahne in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken, damit die Sahne schön luftig wird.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Etwas Muskatnuss darüberreiben.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 3,
+   "wuerzig": 1
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "pisco-sour",
+  "name": "Pisco Sour",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Perus Nationaldrink: Traubenbrand, Zitrone und eine samtige Schaumkrone mit Bitters-Tropfen.",
+  "garnitur": "Einige Tropfen Angostura auf dem Schaum",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Pisco",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Eiweiß",
+    "v": 0
+   },
+   {
+    "m": 3,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.6
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Pisco, Zitronensaft, Zuckersirup und Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Zuerst ohne Eis kräftig shaken (Dry Shake), damit der Schaum entsteht.",
+    "z": []
+   },
+   {
+    "t": "Eis hinzufügen und nochmals kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Ein paar Tropfen Angostura auf den Schaum geben.",
+    "z": [
+     4
+    ]
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 1,
+   "cremig": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "pisco"
+  ],
+  "stil": [
+   "klassiker",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "boulevardier",
+  "name": "Boulevardier",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "bitter",
+   "herb"
+  ],
+  "beschreibung": "Der Negroni mit Whiskey statt Gin: wärmer, runder und mit bittersüßem Nachklang.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Bourbon oder Rye Whiskey",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Campari",
+    "v": 25
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Campari und Wermut dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Etwa 20 Sekunden rühren, bis alles gut gekühlt ist.",
+    "z": []
+   },
+   {
+    "t": "In einen Tumbler auf frisches Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Orangenzeste über dem Drink ausdrücken und hineingeben.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "herb": 2,
+   "suess": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "whiskey",
+   "bitter",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -983,6 +1315,88 @@ window.REZEPTE = [
   },
   "basis": [
    "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "naked-and-famous",
+  "name": "Naked and Famous",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "rauchig",
+   "sauer"
+  ],
+  "beschreibung": "Rauchiger Mezcal trifft Kräuterlikör, Aperol und Limette: vier gleiche Teile, perfekt ausbalanciert.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Mezcal",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Gelber Chartreuse",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Aperol",
+    "v": 11
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Mezcal, Chartreuse, Aperol und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale doppelt abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "rauchig": 2,
+   "sauer": 2,
+   "bitter": 1,
+   "wuerzig": 2,
+   "suess": 1
+  },
+  "basis": [
+   "mezcal",
+   "likoer"
   ],
   "stil": [
    "modern"
@@ -2382,6 +2796,91 @@ window.REZEPTE = [
   "basis": [
    "schaumwein",
    "bitter"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "gin-fizz",
+  "name": "Gin Fizz",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Zitrone und Zucker, kräftig geshakt und mit Soda aufgefüllt: spritzig und leicht.",
+  "garnitur": "Zitronenscheibe",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 80,
+    "e": "ml",
+    "n": "Sodawasser",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Gin, Zitronensaft und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In ein Highball-Glas ohne Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Sodawasser auffüllen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Mit einer Zitronenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 1,
+   "herb": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "gin"
   ],
   "stil": [
    "longdrink"
