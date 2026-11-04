@@ -955,6 +955,88 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "manhattan",
+  "name": "Manhattan",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "herb",
+   "würzig"
+  ],
+  "beschreibung": "Rye Whiskey, roter Wermut und ein Spritzer Bitters: der große New Yorker Klassiker, kräftig und samtig.",
+  "garnitur": "Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Rye Whiskey",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.2
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Wermut und Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Etwa 20 Sekunden rühren, bis alles gut gekühlt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Cocktailkirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "herb": 3,
+   "wuerzig": 2,
+   "suess": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2887,6 +2969,73 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "dark-n-stormy",
+  "name": "Dark 'n' Stormy",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Dunkler Rum schwebt auf scharfem Ginger Beer: wie eine Gewitterwolke im Glas.",
+  "garnitur": "Limettenspalte",
+  "zutaten": [
+   {
+    "m": 100,
+    "e": "ml",
+    "n": "Ginger Beer",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Dunkler Rum",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Ginger Beer eingießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Rum langsam über einen Löffelrücken obenauf gießen, damit er schwimmt.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Mit einer Limettenspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "longdrink",
+   "exotisch"
+  ]
+ },
+ {
   "id": "virgin-colada",
   "name": "Virgin Colada",
   "kategorie": "alkoholfrei",
@@ -3386,6 +3535,106 @@ window.REZEPTE = [
   "stil": [
    "alkoholfrei",
    "exotisch"
+  ]
+ },
+ {
+  "id": "virgin-mary",
+  "name": "Virgin Mary",
+  "kategorie": "alkoholfrei",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Rühren",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "salzig",
+   "würzig"
+  ],
+  "beschreibung": "Die Bloody Mary ohne Wodka: Tomatensaft, Zitrone und ordentlich Würze, herzhaft statt süß.",
+  "garnitur": "Selleriestange und Zitronenspalte",
+  "zutaten": [
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Tomatensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Worcestersauce",
+    "v": 0,
+    "ml": 0.6
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Tabasco",
+    "v": 0,
+    "ml": 0.4
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Selleriesalz",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Schwarzer Pfeffer",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Tomatensaft und Zitronensaft dazugeben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Mit Worcestersauce, Tabasco, Selleriesalz und Pfeffer würzen.",
+    "z": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "t": "Sanft rühren und in einen Tumbler auf Eis gießen.",
+    "z": []
+   },
+   {
+    "t": "Mit Selleriestange und Zitronenspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante der IBA-Bloody-Mary, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "salzig": 3,
+   "wuerzig": 3,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
   ]
  }
 ];
