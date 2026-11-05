@@ -1037,6 +1037,173 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "americano",
+  "name": "Americano",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "bitter",
+   "frisch"
+  ],
+  "beschreibung": "Campari, roter Wermut und ein Schuss Soda: der leichte, bittersüße Vorfahre des Negroni.",
+  "garnitur": "Halbe Orangenscheibe und Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Campari",
+    "v": 25
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sodawasser (ein Schuss)",
+    "v": 0,
+    "ml": 30
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Campari und Wermut eingießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Mit einem Schuss Sodawasser auffüllen.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Kurz und sanft umrühren.",
+    "z": []
+   },
+   {
+    "t": "Mit halber Orangenscheibe und Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "suess": 1,
+   "herb": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "bitter",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "irish-coffee",
+  "name": "Irish Coffee",
+  "kategorie": "klassiker",
+  "glas": "Irish-Coffee-Glas",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 4,
+  "geschmack": [
+   "kaffee",
+   "cremig"
+  ],
+  "beschreibung": "Heißer Kaffee, Irish Whiskey und Zucker unter einer kühlen Sahnehaube: wärmt von innen.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Heißer Kaffee",
+    "v": 0
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Irish Whiskey",
+    "v": 40
+   },
+   {
+    "m": 1,
+    "e": "TL",
+    "n": "Zucker",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Sahne, gekühlt und leicht angeschlagen",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glas mit heißem Wasser vorwärmen, dann ausleeren.",
+    "z": []
+   },
+   {
+    "t": "Heißen Kaffee eingießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Whiskey und Zucker dazugeben und rühren, bis sich der Zucker gelöst hat.",
+    "z": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Sahne vorsichtig über einen Löffelrücken obenauf gießen, sodass sie schwimmt.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Nicht umrühren: durch die Sahne trinken.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "kaffee": 3,
+   "cremig": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -1482,6 +1649,83 @@ window.REZEPTE = [
   ],
   "stil": [
    "modern"
+  ]
+ },
+ {
+  "id": "tommys-margarita",
+  "name": "Tommy's Margarita",
+  "kategorie": "modern",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Die Margarita ohne Orangenlikör: Tequila, Limette und Agavensirup, pur und klar.",
+  "garnitur": "Limettenscheibe",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Tequila Reposado (100 % Agave)",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Agavensirup (halb Agavendicksaft, halb Wasser)",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Tequila, Limettensaft und Agavensirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In den Tumbler auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "tequila"
+  ],
+  "stil": [
+   "modern",
+   "exotisch"
   ]
  },
  {
