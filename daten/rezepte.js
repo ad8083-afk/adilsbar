@@ -1204,6 +1204,92 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "french-75",
+  "name": "French 75",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "frisch",
+   "sauer"
+  ],
+  "beschreibung": "Gin, Zitrone und Zucker, aufgefüllt mit Champagner: prickelnd, elegant und gefährlich leicht.",
+  "garnitur": "Zitronenzeste (optional)",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Champagner oder trockener Sekt",
+    "v": 12
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Sektflöte kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Zitronensaft und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Sektflöte abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Champagner auffüllen und einmal sanft umrühren.",
+    "z": [
+     3
+    ]
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 1,
+   "herb": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin",
+   "schaumwein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -1726,6 +1812,103 @@ window.REZEPTE = [
   "stil": [
    "modern",
    "exotisch"
+  ]
+ },
+ {
+  "id": "russian-spring-punch",
+  "name": "Russian Spring Punch",
+  "kategorie": "modern",
+  "glas": "Hohes Glas",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Wodka, Zitrone und Cassis, aufgefüllt mit Sekt: beerig, spritzig und frühlingshaft.",
+  "garnitur": "Brombeeren, optional Zitronenscheibe",
+  "zutaten": [
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Crème de Cassis",
+    "v": 15
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sekt zum Auffüllen",
+    "v": 12,
+    "ml": 80
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Hohes Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Zitronensaft, Crème de Cassis und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Sekt auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Brombeeren garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "suess": 2
+  },
+  "basis": [
+   "wodka",
+   "schaumwein"
+  ],
+  "stil": [
+   "modern"
   ]
  },
  {
@@ -2494,6 +2677,79 @@ window.REZEPTE = [
    "rum",
    "wodka",
    "likoer"
+  ],
+  "stil": [
+   "exotisch"
+  ]
+ },
+ {
+  "id": "planters-punch",
+  "name": "Planter's Punch",
+  "kategorie": "exotisch",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 3,
+  "zeit": 2,
+  "geschmack": [
+   "süß",
+   "fruchtig"
+  ],
+  "beschreibung": "Jamaika-Rum, Limette und Zuckerrohr: der Urahn der karibischen Punches.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Jamaika-Rum",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zuckerrohrsaft oder Zuckerrohrsirup",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Limettensaft und Zuckerrohrsaft direkt ins Glas geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Umrühren und nach Geschmack mit etwas Wasser oder frischem Saft verlängern.",
+    "z": []
+   },
+   {
+    "t": "Mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 2,
+   "fruchtig": 2,
+   "sauer": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "rum"
   ],
   "stil": [
    "exotisch"
