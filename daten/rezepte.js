@@ -1290,6 +1290,97 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "mint-julep",
+  "name": "Mint Julep",
+  "kategorie": "klassiker",
+  "glas": "Julep-Becher oder Tumbler",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 4,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Bourbon, frische Minze und Zucker auf viel crushed Eis: der Drink des Kentucky Derby.",
+  "garnitur": "Minzzweig",
+  "zutaten": [
+   {
+    "m": 4,
+    "e": "Zweige",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "TL",
+    "n": "Puderzucker",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 2,
+    "e": "TL",
+    "n": "Wasser",
+    "v": 0,
+    "ml": 10
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Bourbon Whiskey",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Minze, Puderzucker und Wasser in den Becher geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Die Minze sanft andrücken, nicht zerreiben.",
+    "z": []
+   },
+   {
+    "t": "Becher mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Bourbon eingießen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Gut rühren, bis der Becher außen beschlägt.",
+    "z": []
+   },
+   {
+    "t": "Mit einem Minzzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "herb": 2,
+   "suess": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2756,6 +2847,94 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "canchanchara",
+  "name": "Canchanchara",
+  "kategorie": "exotisch",
+  "glas": "Tumbler oder Tonbecher",
+  "technik": "Bauen",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "süß",
+   "sauer"
+  ],
+  "beschreibung": "Kubas ältester Cocktail: Aguardiente, Honig und Limette, kräftig auf Eis gerührt.",
+  "garnitur": "Limettenspalte",
+  "zutaten": [
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Honig",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Wasser",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Kubanischer Aguardiente (oder weißer Rum)",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Honig, Limettensaft und Wasser im Glas verrühren.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Die Mischung am Boden und an den Seiten des Glases verteilen.",
+    "z": []
+   },
+   {
+    "t": "Mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Aguardiente eingießen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Kräftig von unten nach oben rühren.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Limettenspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 2,
+   "sauer": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "exotisch"
+  ]
+ },
+ {
   "id": "mojito",
   "name": "Mojito",
   "kategorie": "longdrink",
@@ -4135,6 +4314,96 @@ window.REZEPTE = [
   "basis": [],
   "stil": [
    "alkoholfrei"
+  ]
+ },
+ {
+  "id": "ipanema",
+  "name": "Ipanema",
+  "kategorie": "alkoholfrei",
+  "glas": "Tumbler (Doppel-Rocks)",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Die alkoholfreie Schwester der Caipirinha: Limette, brauner Zucker, Maracuja und Ginger Ale auf crushed Eis.",
+  "garnitur": "Limettenscheibe",
+  "zutaten": [
+   {
+    "m": 0.5,
+    "e": "Stk",
+    "n": "Limette, in Achtel geschnitten",
+    "v": 0,
+    "ml": 15
+   },
+   {
+    "m": 2,
+    "e": "BL",
+    "n": "Brauner Rohrzucker",
+    "v": 0,
+    "ml": 4
+   },
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Maracujasaft",
+    "v": 0
+   },
+   {
+    "m": 100,
+    "e": "ml",
+    "n": "Ginger Ale",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Limettenachtel und Rohrzucker ins Glas geben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Kräftig andrücken, bis der Saft austritt und sich der Zucker löst.",
+    "z": []
+   },
+   {
+    "t": "Glas mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Maracujasaft eingießen.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Mit Ginger Ale auffüllen und kurz umrühren.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Mit einer Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "suess": 2
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
   ]
  }
 ];
