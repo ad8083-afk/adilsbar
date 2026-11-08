@@ -1381,6 +1381,92 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "aviation",
+  "name": "Aviation",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "blumig"
+  ],
+  "beschreibung": "Gin, Maraschino, Zitrone und ein Hauch Veilchenlikör: zartblau wie der Himmel über den ersten Flugzeugen.",
+  "garnitur": "Cocktailkirsche (optional)",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Crème de Violette",
+    "v": 20,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Maraschino, Zitronensaft und Crème de Violette in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Nach Wunsch mit einer Cocktailkirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "herb": 2,
+   "suess": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -1997,6 +2083,79 @@ window.REZEPTE = [
   "basis": [
    "wodka",
    "schaumwein"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "lemon-drop-martini",
+  "name": "Lemon Drop Martini",
+  "kategorie": "modern",
+  "glas": "Martiniglas",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "süß"
+  ],
+  "beschreibung": "Zitronenwodka, Orangenlikör und Zitrone im Glas mit Zuckerrand: wie ein Zitronenbonbon zum Trinken.",
+  "garnitur": "Zuckerrand",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zitronenwodka",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rand des Martiniglases mit Zitrone befeuchten und in Zucker tauchen, dann kühlen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In das vorbereitete Glas abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "wodka",
+   "likoer"
   ],
   "stil": [
    "modern"
@@ -2932,6 +3091,86 @@ window.REZEPTE = [
   ],
   "stil": [
    "exotisch"
+  ]
+ },
+ {
+  "id": "mary-pickford",
+  "name": "Mary Pickford",
+  "kategorie": "exotisch",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Weißer Rum, Ananas, Maraschino und Grenadine: in Havanna zu Ehren eines Stummfilmstars gemixt.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Frischer Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 5,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Ananassaft, Maraschino und Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "exotisch",
+   "klassiker"
   ]
  },
  {
