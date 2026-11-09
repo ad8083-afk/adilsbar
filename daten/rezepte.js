@@ -1467,6 +1467,73 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "rusty-nail",
+  "name": "Rusty Nail",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "süß"
+  ],
+  "beschreibung": "Scotch und Drambuie, ein Whisky-Honig-Kräuterlikör: nur zwei Zutaten, warm und rund.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Scotch Whisky",
+    "v": 40
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Drambuie",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Scotch und Drambuie direkt ins Glas geben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   },
+   {
+    "t": "Mit Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 2,
+   "rauchig": 1
+  },
+  "basis": [
+   "whiskey",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2156,6 +2223,92 @@ window.REZEPTE = [
   "basis": [
    "wodka",
    "likoer"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "bees-knees",
+  "name": "Bee's Knees",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "süß"
+  ],
+  "beschreibung": "Gin mit Honig, Zitrone und Orange: ein Drink aus der Prohibitionszeit, frisch und blumig.",
+  "garnitur": "Zitronen- oder Orangenzeste (optional)",
+  "zutaten": [
+   {
+    "m": 52.5,
+    "e": "ml",
+    "n": "Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 2,
+    "e": "TL",
+    "n": "Honigsirup",
+    "v": 0,
+    "ml": 10
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Honigsirup mit Zitronen- und Orangensaft im Shaker verrühren, bis er sich löst.",
+    "z": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Gin dazugeben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und nach Wunsch mit Zeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 2,
+   "fruchtig": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin"
   ],
   "stil": [
    "modern"
@@ -3171,6 +3324,87 @@ window.REZEPTE = [
   "stil": [
    "exotisch",
    "klassiker"
+  ]
+ },
+ {
+  "id": "yellow-bird",
+  "name": "Yellow Bird",
+  "kategorie": "exotisch",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Weißer Rum, Galliano, Orangenlikör und Limette: sonnengelb, mit einem Hauch Vanille und Anis.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Galliano",
+    "v": 42.3
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Galliano, Triple Sec und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 2,
+   "suess": 2,
+   "sauer": 2,
+   "wuerzig": 1
+  },
+  "basis": [
+   "rum",
+   "likoer"
+  ],
+  "stil": [
+   "exotisch"
   ]
  },
  {
