@@ -1534,6 +1534,76 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "stinger",
+  "name": "Stinger",
+  "kategorie": "klassiker",
+  "glas": "Martiniglas",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Cognac mit weißem Pfefferminzlikör: ein kühler, kräftiger Digestif aus der Gründerzeit der Cocktails.",
+  "garnitur": "Minzblatt (optional)",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Weiße Crème de Menthe",
+    "v": 24
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Cognac und Crème de Menthe dazugeben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen und nach Wunsch mit einem Minzblatt garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 2
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2309,6 +2379,98 @@ window.REZEPTE = [
   },
   "basis": [
    "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "spicy-fifty",
+  "name": "Spicy Fifty",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "süß"
+  ],
+  "beschreibung": "Vanillewodka, Holunderblüte, Limette und Honig mit einem Hauch Chili: süß, blumig und mit leichter Schärfe.",
+  "garnitur": "Rote Chilischote",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Vanillewodka",
+    "v": 37.5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Holunderblütensirup",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Honigsirup",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Scheiben",
+    "n": "Rote Chili, dünn geschnitten",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Holunderblütensirup, Limettensaft, Honigsirup und Chili in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Doppelt in die gekühlte Schale abseihen, damit keine Chilistücke ins Glas kommen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer roten Chilischote garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "sauer": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "wodka"
   ],
   "stil": [
    "modern"
@@ -4877,6 +5039,100 @@ window.REZEPTE = [
   "stil": [
    "alkoholfrei",
    "exotisch"
+  ]
+ },
+ {
+  "id": "cinderella",
+  "name": "Cinderella",
+  "kategorie": "alkoholfrei",
+  "glas": "Hohes Glas",
+  "technik": "Shaken",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Orange, Ananas und Zitrone mit einem Hauch Grenadine und Soda: der klassische Fruchtcocktail ohne Alkohol.",
+  "garnitur": "Orangenscheibe und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sodawasser zum Auffüllen",
+    "v": 0,
+    "ml": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Hohes Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Orangen-, Ananas- und Zitronensaft mit Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Sodawasser auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Orangenscheibe und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreier Klassiker nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
   ]
  }
 ];
