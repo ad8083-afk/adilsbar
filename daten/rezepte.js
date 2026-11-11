@@ -1604,6 +1604,99 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "sazerac",
+  "name": "Sazerac",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 5,
+  "geschmack": [
+   "würzig",
+   "herb"
+  ],
+  "beschreibung": "Der Stolz von New Orleans: Cognac, Zucker und Peychaud's Bitters in einem Glas mit Absinth-Hauch.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Absinth zum Ausspülen",
+    "v": 68,
+    "ml": 2
+   },
+   {
+    "m": 1,
+    "e": "Stk",
+    "n": "Zuckerwürfel",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Peychaud's Bitters",
+    "v": 35,
+    "ml": 0.6
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler kühlen, mit Absinth ausschwenken, crushed Eis hineingeben und beiseitestellen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Zuckerwürfel mit den Bitters im Rührglas zerdrücken.",
+    "z": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Cognac und Eis dazugeben und gut rühren.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Eis und überschüssigen Absinth aus dem Tumbler entfernen.",
+    "z": []
+   },
+   {
+    "t": "Den Drink ohne Eis ins vorbereitete Glas abseihen.",
+    "z": []
+   },
+   {
+    "t": "Zitronenzeste über dem Glas ausdrücken.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 2,
+   "suess": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "brandy"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2471,6 +2564,99 @@ window.REZEPTE = [
   },
   "basis": [
    "wodka"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "southside",
+  "name": "Southside",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "frisch",
+   "sauer"
+  ],
+  "beschreibung": "Gin, Zitrone und frische Minze: wie ein Mojito mit Gin, kühl und klar.",
+  "garnitur": "Minzzweig",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "London Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 6,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß (optional)",
+    "v": 0,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Zitronensaft, Zuckersirup, Minze und nach Wunsch Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken, mit Eiweiß besonders lange.",
+    "z": []
+   },
+   {
+    "t": "Doppelt in die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einem Minzzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "wuerzig": 2,
+   "suess": 1,
+   "herb": 1
+  },
+  "basis": [
+   "gin"
   ],
   "stil": [
    "modern"
@@ -3567,6 +3753,106 @@ window.REZEPTE = [
   ],
   "stil": [
    "exotisch"
+  ]
+ },
+ {
+  "id": "barracuda",
+  "name": "Barracuda",
+  "kategorie": "exotisch",
+  "glas": "Highball",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Goldener Rum, Galliano und Ananas, aufgefüllt mit Prosecco: tropisch und prickelnd.",
+  "garnitur": "Ananasstück und Kirsche, optional Minzzweig",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Goldener Rum",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Galliano",
+    "v": 42.3
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Frischer Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Frischer Limettensaft",
+    "v": 0,
+    "ml": 1
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Prosecco zum Auffüllen",
+    "v": 11,
+    "ml": 60
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Galliano, Ananassaft und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Prosecco auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Ananas und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "wuerzig": 1
+  },
+  "basis": [
+   "rum",
+   "likoer",
+   "schaumwein"
+  ],
+  "stil": [
+   "exotisch",
+   "modern"
   ]
  },
  {
