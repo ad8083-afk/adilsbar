@@ -1697,6 +1697,91 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "clover-club",
+  "name": "Clover Club",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "fruchtig",
+   "sauer"
+  ],
+  "beschreibung": "Gin, Himbeersirup und Zitrone unter einer zarten Schaumkrone: rosa, fruchtig und elegant.",
+  "garnitur": "Frische Himbeeren",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Himbeersirup",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß",
+    "v": 0,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Himbeersirup, Zitronensaft und Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken, damit Schaum entsteht.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit frischen Himbeeren garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "suess": 2,
+   "cremig": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2657,6 +2742,103 @@ window.REZEPTE = [
   },
   "basis": [
    "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "new-york-sour",
+  "name": "New York Sour",
+  "kategorie": "modern",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "sauer",
+   "fruchtig"
+  ],
+  "beschreibung": "Ein Whiskey Sour mit schwebender Rotweinschicht: zweifarbig, frisch und mit fruchtiger Tiefe.",
+  "garnitur": "Zitronen- oder Orangenzeste mit Kirsche",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Rye Whiskey oder Bourbon",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß",
+    "v": 0,
+    "ml": 5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Kräftiger Rotwein (Shiraz oder Malbec)",
+    "v": 13.5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Zuckersirup, Zitronensaft und Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Rotwein langsam über einen Löffelrücken obenauf gießen, damit er schwimmt.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Zeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1,
+   "herb": 1
+  },
+  "basis": [
+   "whiskey"
   ],
   "stil": [
    "modern"
@@ -3853,6 +4035,88 @@ window.REZEPTE = [
   "stil": [
    "exotisch",
    "modern"
+  ]
+ },
+ {
+  "id": "hemingway-special",
+  "name": "Hemingway Special",
+  "kategorie": "exotisch",
+  "glas": "Große Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "herb"
+  ],
+  "beschreibung": "Der Daiquiri, den Hemingway in Havanna trank: Rum, Grapefruit, Maraschino und Limette, herb und kaum süß.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Grapefruitsaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Grapefruitsaft, Maraschino und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "herb": 2,
+   "fruchtig": 2,
+   "bitter": 1
+  },
+  "basis": [
+   "rum",
+   "likoer"
+  ],
+  "stil": [
+   "exotisch",
+   "klassiker"
   ]
  },
  {
