@@ -1782,6 +1782,80 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "white-lady",
+  "name": "White Lady",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Orangenlikör und Zitrone: klar, hell und zitrusfrisch, ein Klassiker aus den Londoner Bars der 1920er.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "fruchtig": 2,
+   "suess": 1,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2839,6 +2913,82 @@ window.REZEPTE = [
   },
   "basis": [
    "whiskey"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "french-martini",
+  "name": "French Martini",
+  "kategorie": "modern",
+  "glas": "Martiniglas",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Wodka, Himbeerlikör und Ananas: samtig, beerig und mit feinem Schaum obenauf.",
+  "garnitur": "Zitronenzeste, nur das Öl darüber ausdrücken",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Himbeerlikör",
+    "v": 16.5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Ananassaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Himbeerlikör und Ananassaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken, damit sich Schaum bildet.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen.",
+    "z": []
+   },
+   {
+    "t": "Zitronenzeste über dem Drink ausdrücken.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "wodka"
   ],
   "stil": [
    "modern"
@@ -5683,6 +5833,78 @@ window.REZEPTE = [
   "basis": [],
   "stil": [
    "alkoholfrei"
+  ]
+ },
+ {
+  "id": "virgin-sunrise",
+  "name": "Virgin Sunrise",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Der Tequila Sunrise ohne Tequila: Orangensaft mit Grenadine, die wie ein Sonnenaufgang im Glas absinkt.",
+  "garnitur": "Orangenscheibe und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 150,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Orangensaft und Limettensaft eingießen und kurz umrühren.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Grenadine langsam am Glasrand hineinlaufen lassen, damit sie nach unten sinkt.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Nicht umrühren. Mit Orangenscheibe und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
   ]
  }
 ];
