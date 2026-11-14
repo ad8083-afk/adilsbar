@@ -1856,6 +1856,68 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "black-russian",
+  "name": "Black Russian",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 2,
+  "geschmack": [
+   "kaffee",
+   "süß"
+  ],
+  "beschreibung": "Wodka und Kaffeelikör auf Eis: dunkel, süß und kräftig. Mit Sahne obenauf wird daraus ein White Russian.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Kaffeelikör",
+    "v": 20
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka und Kaffeelikör eingießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Variante White Russian: frische Sahne obenauf geben und langsam einrühren.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "kaffee": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "wodka",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -2989,6 +3051,87 @@ window.REZEPTE = [
   },
   "basis": [
    "wodka"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "trinidad-sour",
+  "name": "Trinidad Sour",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "bitter",
+   "würzig"
+  ],
+  "beschreibung": "Ein Sour mit einem ganzen Schuss Angostura als Basis: tiefrot, würzig und überraschend rund dank Mandelsirup.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Angostura Bitters",
+    "v": 44.7
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Mandelsirup (Orgeat)",
+    "v": 0
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Rye Whiskey",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Angostura, Mandelsirup, Zitronensaft und Rye in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "wuerzig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "bitter",
+   "whiskey"
   ],
   "stil": [
    "modern"
@@ -5047,6 +5190,101 @@ window.REZEPTE = [
   "stil": [
    "longdrink",
    "exotisch"
+  ]
+ },
+ {
+  "id": "suffering-bastard",
+  "name": "Suffering Bastard",
+  "kategorie": "longdrink",
+  "glas": "Hohes Glas (Collins)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Cognac und Gin mit Limette, Bitters und Ginger Beer: in Kairo als Mittel gegen den Kater erfunden.",
+  "garnitur": "Minzzweige, optional Orangenscheibe",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac oder Brandy",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Ginger Beer zum Auffüllen",
+    "v": 0,
+    "ml": 90
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cognac, Gin, Limettensaft und Bitters in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Mitsamt Eis in ein hohes Glas schütten, nicht abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Ginger Beer auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Minzzweigen garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 1,
+   "sauer": 1,
+   "suess": 1
+  },
+  "basis": [
+   "brandy",
+   "gin"
+  ],
+  "stil": [
+   "longdrink"
   ]
  },
  {
