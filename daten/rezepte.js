@@ -1918,6 +1918,76 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "bellini",
+  "name": "Bellini",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Rühren",
+  "staerke": 1,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Weißes Pfirsichpüree mit Prosecco: in Harry's Bar in Venedig erfunden, zart, fruchtig und leicht.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Weißes Pfirsichpüree",
+    "v": 0
+   },
+   {
+    "m": 100,
+    "e": "ml",
+    "n": "Prosecco",
+    "v": 11
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Sektflöte kühlen.",
+    "z": []
+   },
+   {
+    "t": "Pfirsichpüree in ein Rührglas mit Eis geben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Prosecco dazugießen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren, damit die Kohlensäure erhalten bleibt.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Sektflöte gießen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Varianten: Puccini mit Mandarinensaft, Rossini mit Erdbeerpüree, Tintoretto mit Granatapfelsaft.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "schaumwein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -3135,6 +3205,113 @@ window.REZEPTE = [
   ],
   "stil": [
    "modern"
+  ]
+ },
+ {
+  "id": "old-cuban",
+  "name": "Old Cuban",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "frisch",
+   "würzig"
+  ],
+  "beschreibung": "Gereifter Rum, Minze, Limette und Bitters, mit Champagner gekrönt: ein eleganter Mojito für besondere Abende.",
+  "garnitur": "Minzzweig",
+  "zutaten": [
+   {
+    "m": 7,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gereifter Rum",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Champagner oder Prosecco",
+    "v": 12
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Minze, Rum, Limettensaft, Zuckersirup und Bitters in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Champagner auffüllen.",
+    "z": [
+     5
+    ]
+   },
+   {
+    "t": "Mit einem Minzzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "sauer": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "rum",
+   "schaumwein"
+  ],
+  "stil": [
+   "modern",
+   "exotisch"
   ]
  },
  {
@@ -5285,6 +5462,74 @@ window.REZEPTE = [
   ],
   "stil": [
    "longdrink"
+  ]
+ },
+ {
+  "id": "fernandito",
+  "name": "Fernandito",
+  "kategorie": "longdrink",
+  "glas": "Tumbler (Doppel-Rocks)",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 1,
+  "geschmack": [
+   "bitter",
+   "würzig"
+  ],
+  "beschreibung": "Fernet mit Cola: in Argentinien der Nationaldrink, herb-kräuterig und überraschend erfrischend.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Fernet-Branca",
+    "v": 39
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Cola zum Auffüllen",
+    "v": 0,
+    "ml": 150
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Fernet eingießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit Cola auffüllen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "wuerzig": 3,
+   "suess": 2
+  },
+  "basis": [
+   "bitter"
+  ],
+  "stil": [
+   "longdrink",
+   "exotisch"
   ]
  },
  {
