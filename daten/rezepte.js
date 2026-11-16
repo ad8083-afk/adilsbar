@@ -1988,6 +1988,88 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "between-the-sheets",
+  "name": "Between the Sheets",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "fruchtig"
+  ],
+  "beschreibung": "Rum und Cognac zu gleichen Teilen mit Orangenlikör und Zitrone: ein kräftiger Verwandter des Sidecar.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Cognac, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "fruchtig": 2,
+   "suess": 1,
+   "herb": 2
+  },
+  "basis": [
+   "rum",
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -3308,6 +3390,112 @@ window.REZEPTE = [
   "basis": [
    "rum",
    "schaumwein"
+  ],
+  "stil": [
+   "modern",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "illegal",
+  "name": "Illegal",
+  "kategorie": "modern",
+  "glas": "Cocktailschale oder Tonbecher",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "rauchig",
+   "würzig"
+  ],
+  "beschreibung": "Mezcal und kräftiger Jamaika-Rum mit Falernum, Maraschino und Limette: rauchig, würzig und tropisch zugleich.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Mezcal (Espadín)",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Weißer Jamaika-Rum (Overproof)",
+    "v": 63
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Falernum",
+    "v": 11
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Maraschino-Likör",
+    "v": 32,
+    "ml": 5
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß (optional)",
+    "v": 0,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Mezcal, Rum, Falernum, Maraschino, Limettensaft, Zuckersirup und nach Wunsch Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen oder in einem Tonbecher auf Eis servieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "rauchig": 2,
+   "wuerzig": 2,
+   "sauer": 2,
+   "suess": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "mezcal",
+   "rum"
   ],
   "stil": [
    "modern",
@@ -6382,6 +6570,88 @@ window.REZEPTE = [
   "profil": {
    "fruchtig": 3,
    "suess": 2,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "virgin-sex-on-the-beach",
+  "name": "Virgin Sex on the Beach",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Shaken",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Orange, Cranberry und Pfirsich ohne Alkohol: die fruchtige Strandvariante für alle, die fahren oder einfach keinen Alkohol wollen.",
+  "garnitur": "Orangenscheibe",
+  "zutaten": [
+   {
+    "m": 80,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 80,
+    "e": "ml",
+    "n": "Cranberrysaft",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Pfirsichsirup",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Orangensaft, Cranberrysaft, Pfirsichsirup und Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kurz shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Orangenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 3,
    "sauer": 1
   },
   "basis": [],
