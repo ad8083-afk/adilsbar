@@ -2070,6 +2070,86 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "golden-dream",
+  "name": "Golden Dream",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Galliano, Orangenlikör, Orangensaft und Sahne: goldgelb, cremig und mit feiner Vanillenote, ein Dessertdrink der 1960er.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Galliano",
+    "v": 42.3
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Galliano, Triple Sec, Orangensaft und Sahne in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und ein paar Sekunden kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 3,
+   "fruchtig": 2,
+   "wuerzig": 1
+  },
+  "basis": [
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -3500,6 +3580,92 @@ window.REZEPTE = [
   "stil": [
    "modern",
    "exotisch"
+  ]
+ },
+ {
+  "id": "tipperary",
+  "name": "Tipperary",
+  "kategorie": "modern",
+  "glas": "Martiniglas",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "herb"
+  ],
+  "beschreibung": "Irish Whiskey, roter Wermut und grüner Chartreuse: kräftig, kräuterig und angenehm süß.",
+  "garnitur": "Orangenscheibe",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Irish Whiskey",
+    "v": 40
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Grüner Chartreuse",
+    "v": 55
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Wermut, Chartreuse und Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen und mit einer Orangenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 2,
+   "suess": 2,
+   "bitter": 1
+  },
+  "basis": [
+   "whiskey",
+   "likoer"
+  ],
+  "stil": [
+   "modern"
   ]
  },
  {
@@ -5718,6 +5884,80 @@ window.REZEPTE = [
   "stil": [
    "longdrink",
    "exotisch"
+  ]
+ },
+ {
+  "id": "horses-neck",
+  "name": "Horse's Neck",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Cognac mit Ginger Ale und einer langen Zitronenspirale, die wie ein Pferdehals aus dem Glas ragt.",
+  "garnitur": "Lange Zitronenschalen-Spirale",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Ginger Ale",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Angostura Bitters (optional)",
+    "v": 44.7,
+    "ml": 0.2
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Zitronenschale in einer langen Spirale abschälen und ins Glas hängen.",
+    "z": []
+   },
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Cognac und Ginger Ale direkt ins Glas gießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren und nach Wunsch einen Spritzer Angostura dazugeben.",
+    "z": [
+     2
+    ]
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "brandy"
+  ],
+  "stil": [
+   "longdrink"
   ]
  },
  {
