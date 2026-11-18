@@ -2150,6 +2150,192 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "vieux-carre",
+  "name": "Vieux Carré",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "herb"
+  ],
+  "beschreibung": "Rye, Cognac und roter Wermut mit Bénédictine und Peychaud's: benannt nach dem French Quarter von New Orleans, vielschichtig und samtig.",
+  "garnitur": "Orangenzeste und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Rye Whiskey",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Bénédictine",
+    "v": 40,
+    "ml": 5
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Peychaud's Bitters",
+    "v": 35,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Rye, Cognac, Wermut, Bénédictine und Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Orangenzeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 2,
+   "suess": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "whiskey",
+   "brandy",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "corpse-reviver-2",
+  "name": "Corpse Reviver #2",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Orangenlikör, Lillet und Zitrone zu gleichen Teilen mit einem Hauch Absinth: hell, spritzig und überraschend leicht.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cointreau",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Lillet Blanc",
+    "v": 17
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Absinth",
+    "v": 68,
+    "ml": 0.5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Cointreau, Lillet, Zitronensaft und Absinth in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "fruchtig": 2,
+   "herb": 1,
+   "wuerzig": 1,
+   "suess": 1
+  },
+  "basis": [
+   "gin",
+   "likoer",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -5955,6 +6141,79 @@ window.REZEPTE = [
   },
   "basis": [
    "brandy"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "sea-breeze",
+  "name": "Sea Breeze",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Wodka mit Cranberry und Grapefruit: herb-fruchtig, leicht und so erfrischend wie eine Meeresbrise.",
+  "garnitur": "Orangenzeste und Kirsche",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Cranberrysaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Grapefruitsaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Cranberrysaft und Grapefruitsaft direkt ins Glas gießen.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Kurz umrühren.",
+    "z": []
+   },
+   {
+    "t": "Mit Orangenzeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "herb": 1,
+   "suess": 1
+  },
+  "basis": [
+   "wodka"
   ],
   "stil": [
    "longdrink"
