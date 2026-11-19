@@ -2336,6 +2336,153 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "last-word",
+  "name": "Last Word",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "sauer"
+  ],
+  "beschreibung": "Gin, grüner Chartreuse, Maraschino und Limette zu gleichen Teilen: kräuterig, scharf ausbalanciert und in Detroit erfunden.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Grüner Chartreuse",
+    "v": 55
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Chartreuse, Maraschino und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "sauer": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "mimosa",
+  "name": "Mimosa",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Bauen",
+  "staerke": 1,
+  "zeit": 1,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Frischer Orangensaft und Prosecco zu gleichen Teilen: der Brunch-Klassiker, in Großbritannien auch Buck's Fizz genannt.",
+  "garnitur": "Orangenzeste (optional)",
+  "zutaten": [
+   {
+    "m": 75,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 75,
+    "e": "ml",
+    "n": "Prosecco",
+    "v": 11
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Orangensaft in die Sektflöte gießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Prosecco vorsichtig dazugießen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Einmal sanft umrühren.",
+    "z": []
+   },
+   {
+    "t": "Nach Wunsch mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 1,
+   "suess": 1
+  },
+  "basis": [
+   "schaumwein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -7157,6 +7304,83 @@ window.REZEPTE = [
   "stil": [
    "alkoholfrei",
    "exotisch"
+  ]
+ },
+ {
+  "id": "virgin-mule",
+  "name": "Virgin Mule",
+  "kategorie": "alkoholfrei",
+  "glas": "Kupferbecher",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Der Moscow Mule ohne Wodka: scharfes Ginger Beer, Limette und Minze im eiskalten Kupferbecher.",
+  "garnitur": "Limettenscheibe und Minzzweig",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 150,
+    "e": "ml",
+    "n": "Ginger Beer",
+    "v": 0
+   },
+   {
+    "m": 4,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Becher mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Limettensaft hineingeben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit Ginger Beer auffüllen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Minzblätter kurz zwischen den Händen klatschen und dazugeben.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Kurz umrühren und mit Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "sauer": 2,
+   "suess": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
   ]
  }
 ];
