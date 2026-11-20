@@ -2483,6 +2483,140 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "french-connection",
+  "name": "French Connection",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 2,
+  "geschmack": [
+   "süß",
+   "würzig"
+  ],
+  "beschreibung": "Cognac und Amaretto zu gleichen Teilen auf Eis: weich, mandelig und wärmend, ideal nach dem Essen.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 35,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 35,
+    "e": "ml",
+    "n": "Amaretto",
+    "v": 28
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Cognac und Amaretto direkt ins Glas gießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 3,
+   "wuerzig": 2,
+   "herb": 1
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "grasshopper",
+  "name": "Grasshopper",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Grüner Pfefferminzlikör, weißer Kakaolikör und Sahne: knallgrün, cremig und wie ein Minzschokoladen-Dessert.",
+  "garnitur": "Minzblatt (optional)",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Weiße Crème de Cacao",
+    "v": 25
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Grüne Crème de Menthe",
+    "v": 24
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Crème de Cacao, Crème de Menthe und Sahne in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und ein paar Sekunden kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und nach Wunsch mit einem Minzblatt garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 3,
+   "wuerzig": 1
+  },
+  "basis": [
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -6361,6 +6495,87 @@ window.REZEPTE = [
   },
   "basis": [
    "wodka"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "john-collins",
+  "name": "John Collins",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Zitrone, Zucker und Soda auf Eis: der erfrischende Urvater der Collins-Familie. Mit Old Tom Gin wird daraus ein Tom Collins.",
+  "garnitur": "Zitronenscheibe und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Sodawasser",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Zitronensaft und Zuckersirup ins Glas geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Sodawasser auffüllen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Sanft umrühren und mit Zitronenscheibe und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Variante Tom Collins: Old Tom Gin statt London Dry Gin verwenden.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 1,
+   "herb": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin"
   ],
   "stil": [
    "longdrink"
