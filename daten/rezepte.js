@@ -2617,6 +2617,79 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "vesper",
+  "name": "Vesper",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 5,
+  "zeit": 3,
+  "geschmack": [
+   "herb",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Wodka und Lillet Blanc, geschüttelt statt gerührt: der Martini, den James Bond in Casino Royale bestellt.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Lillet Blanc",
+    "v": 17
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Wodka und Lillet in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "herb": 3,
+   "wuerzig": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "gin",
+   "wodka"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -4130,6 +4203,97 @@ window.REZEPTE = [
   "basis": [
    "whiskey",
    "likoer"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "vento",
+  "name": "VE.N.TO",
+  "kategorie": "modern",
+  "glas": "Kleiner Tumbler",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "sauer",
+   "blumig"
+  ],
+  "beschreibung": "Milder Grappa mit Zitrone, Honig und Kamille: ein italienischer Sour, sanft und blumig.",
+  "garnitur": "Zitronenzeste und weiße Trauben",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Milder weißer Grappa",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Honigsirup (mit Kamillentee statt Wasser)",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Kamillensirup",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Eiweiß (optional)",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Kleinen Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Grappa, Zitronensaft, Honigsirup, Kamillensirup und nach Wunsch Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Zitronenzeste und weißen Trauben garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 2,
+   "fruchtig": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "grappa"
   ],
   "stil": [
    "modern"
@@ -6579,6 +6743,116 @@ window.REZEPTE = [
   ],
   "stil": [
    "longdrink"
+  ]
+ },
+ {
+  "id": "bloody-mary",
+  "name": "Bloody Mary",
+  "kategorie": "longdrink",
+  "glas": "Tumbler oder Highball",
+  "technik": "Rühren",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "salzig",
+   "würzig"
+  ],
+  "beschreibung": "Wodka mit Tomatensaft, Zitrone und kräftiger Würze: der herzhafte Klassiker für den späten Vormittag.",
+  "garnitur": "Selleriestange, optional Zitronenspalte",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 90,
+    "e": "ml",
+    "n": "Tomatensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Worcestersauce",
+    "v": 0,
+    "ml": 0.6
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Tabasco",
+    "v": 0,
+    "ml": 0.4
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Selleriesalz",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Schwarzer Pfeffer",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Tomatensaft und Zitronensaft dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Worcestersauce, Tabasco, Selleriesalz und Pfeffer abschmecken.",
+    "z": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "t": "Sanft rühren und in einen Tumbler gießen, auf Wunsch auf Eis im Highball.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Selleriestange garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Alkoholfreie Variante: Virgin Mary.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "salzig": 3,
+   "wuerzig": 3,
+   "sauer": 1
+  },
+  "basis": [
+   "wodka"
+  ],
+  "stil": [
+   "longdrink",
+   "klassiker"
   ]
  },
  {
