@@ -955,6 +955,1893 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "manhattan",
+  "name": "Manhattan",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "herb",
+   "würzig"
+  ],
+  "beschreibung": "Rye Whiskey, roter Wermut und ein Spritzer Bitters: der große New Yorker Klassiker, kräftig und samtig.",
+  "garnitur": "Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Rye Whiskey",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.2
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Wermut und Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Etwa 20 Sekunden rühren, bis alles gut gekühlt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Cocktailkirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "herb": 3,
+   "wuerzig": 2,
+   "suess": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "americano",
+  "name": "Americano",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "bitter",
+   "frisch"
+  ],
+  "beschreibung": "Campari, roter Wermut und ein Schuss Soda: der leichte, bittersüße Vorfahre des Negroni.",
+  "garnitur": "Halbe Orangenscheibe und Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Campari",
+    "v": 25
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sodawasser (ein Schuss)",
+    "v": 0,
+    "ml": 30
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Campari und Wermut eingießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Mit einem Schuss Sodawasser auffüllen.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Kurz und sanft umrühren.",
+    "z": []
+   },
+   {
+    "t": "Mit halber Orangenscheibe und Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "suess": 1,
+   "herb": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "bitter",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "irish-coffee",
+  "name": "Irish Coffee",
+  "kategorie": "klassiker",
+  "glas": "Irish-Coffee-Glas",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 4,
+  "geschmack": [
+   "kaffee",
+   "cremig"
+  ],
+  "beschreibung": "Heißer Kaffee, Irish Whiskey und Zucker unter einer kühlen Sahnehaube: wärmt von innen.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Heißer Kaffee",
+    "v": 0
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Irish Whiskey",
+    "v": 40
+   },
+   {
+    "m": 1,
+    "e": "TL",
+    "n": "Zucker",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Sahne, gekühlt und leicht angeschlagen",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glas mit heißem Wasser vorwärmen, dann ausleeren.",
+    "z": []
+   },
+   {
+    "t": "Heißen Kaffee eingießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Whiskey und Zucker dazugeben und rühren, bis sich der Zucker gelöst hat.",
+    "z": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Sahne vorsichtig über einen Löffelrücken obenauf gießen, sodass sie schwimmt.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Nicht umrühren: durch die Sahne trinken.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "kaffee": 3,
+   "cremig": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "french-75",
+  "name": "French 75",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "frisch",
+   "sauer"
+  ],
+  "beschreibung": "Gin, Zitrone und Zucker, aufgefüllt mit Champagner: prickelnd, elegant und gefährlich leicht.",
+  "garnitur": "Zitronenzeste (optional)",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Champagner oder trockener Sekt",
+    "v": 12
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Sektflöte kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Zitronensaft und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Sektflöte abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Champagner auffüllen und einmal sanft umrühren.",
+    "z": [
+     3
+    ]
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 1,
+   "herb": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin",
+   "schaumwein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "mint-julep",
+  "name": "Mint Julep",
+  "kategorie": "klassiker",
+  "glas": "Julep-Becher oder Tumbler",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 4,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Bourbon, frische Minze und Zucker auf viel crushed Eis: der Drink des Kentucky Derby.",
+  "garnitur": "Minzzweig",
+  "zutaten": [
+   {
+    "m": 4,
+    "e": "Zweige",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "TL",
+    "n": "Puderzucker",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 2,
+    "e": "TL",
+    "n": "Wasser",
+    "v": 0,
+    "ml": 10
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Bourbon Whiskey",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Minze, Puderzucker und Wasser in den Becher geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Die Minze sanft andrücken, nicht zerreiben.",
+    "z": []
+   },
+   {
+    "t": "Becher mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Bourbon eingießen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Gut rühren, bis der Becher außen beschlägt.",
+    "z": []
+   },
+   {
+    "t": "Mit einem Minzzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "herb": 2,
+   "suess": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "aviation",
+  "name": "Aviation",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "blumig"
+  ],
+  "beschreibung": "Gin, Maraschino, Zitrone und ein Hauch Veilchenlikör: zartblau wie der Himmel über den ersten Flugzeugen.",
+  "garnitur": "Cocktailkirsche (optional)",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Crème de Violette",
+    "v": 20,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Maraschino, Zitronensaft und Crème de Violette in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Nach Wunsch mit einer Cocktailkirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "herb": 2,
+   "suess": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "rusty-nail",
+  "name": "Rusty Nail",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "süß"
+  ],
+  "beschreibung": "Scotch und Drambuie, ein Whisky-Honig-Kräuterlikör: nur zwei Zutaten, warm und rund.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Scotch Whisky",
+    "v": 40
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Drambuie",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Scotch und Drambuie direkt ins Glas geben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   },
+   {
+    "t": "Mit Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 2,
+   "rauchig": 1
+  },
+  "basis": [
+   "whiskey",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "stinger",
+  "name": "Stinger",
+  "kategorie": "klassiker",
+  "glas": "Martiniglas",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Cognac mit weißem Pfefferminzlikör: ein kühler, kräftiger Digestif aus der Gründerzeit der Cocktails.",
+  "garnitur": "Minzblatt (optional)",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Weiße Crème de Menthe",
+    "v": 24
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Cognac und Crème de Menthe dazugeben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen und nach Wunsch mit einem Minzblatt garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 2
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "sazerac",
+  "name": "Sazerac",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 5,
+  "geschmack": [
+   "würzig",
+   "herb"
+  ],
+  "beschreibung": "Der Stolz von New Orleans: Cognac, Zucker und Peychaud's Bitters in einem Glas mit Absinth-Hauch.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Absinth zum Ausspülen",
+    "v": 68,
+    "ml": 2
+   },
+   {
+    "m": 1,
+    "e": "Stk",
+    "n": "Zuckerwürfel",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Peychaud's Bitters",
+    "v": 35,
+    "ml": 0.6
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler kühlen, mit Absinth ausschwenken, crushed Eis hineingeben und beiseitestellen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Zuckerwürfel mit den Bitters im Rührglas zerdrücken.",
+    "z": [
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Cognac und Eis dazugeben und gut rühren.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Eis und überschüssigen Absinth aus dem Tumbler entfernen.",
+    "z": []
+   },
+   {
+    "t": "Den Drink ohne Eis ins vorbereitete Glas abseihen.",
+    "z": []
+   },
+   {
+    "t": "Zitronenzeste über dem Glas ausdrücken.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 2,
+   "suess": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "brandy"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "clover-club",
+  "name": "Clover Club",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "fruchtig",
+   "sauer"
+  ],
+  "beschreibung": "Gin, Himbeersirup und Zitrone unter einer zarten Schaumkrone: rosa, fruchtig und elegant.",
+  "garnitur": "Frische Himbeeren",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Himbeersirup",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß",
+    "v": 0,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Himbeersirup, Zitronensaft und Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken, damit Schaum entsteht.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit frischen Himbeeren garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "suess": 2,
+   "cremig": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "white-lady",
+  "name": "White Lady",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Orangenlikör und Zitrone: klar, hell und zitrusfrisch, ein Klassiker aus den Londoner Bars der 1920er.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "fruchtig": 2,
+   "suess": 1,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "black-russian",
+  "name": "Black Russian",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 2,
+  "geschmack": [
+   "kaffee",
+   "süß"
+  ],
+  "beschreibung": "Wodka und Kaffeelikör auf Eis: dunkel, süß und kräftig. Mit Sahne obenauf wird daraus ein White Russian.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Kaffeelikör",
+    "v": 20
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka und Kaffeelikör eingießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Variante White Russian: frische Sahne obenauf geben und langsam einrühren.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "kaffee": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "wodka",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "bellini",
+  "name": "Bellini",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Rühren",
+  "staerke": 1,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Weißes Pfirsichpüree mit Prosecco: in Harry's Bar in Venedig erfunden, zart, fruchtig und leicht.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Weißes Pfirsichpüree",
+    "v": 0
+   },
+   {
+    "m": 100,
+    "e": "ml",
+    "n": "Prosecco",
+    "v": 11
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Sektflöte kühlen.",
+    "z": []
+   },
+   {
+    "t": "Pfirsichpüree in ein Rührglas mit Eis geben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Prosecco dazugießen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren, damit die Kohlensäure erhalten bleibt.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Sektflöte gießen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Varianten: Puccini mit Mandarinensaft, Rossini mit Erdbeerpüree, Tintoretto mit Granatapfelsaft.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "schaumwein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "between-the-sheets",
+  "name": "Between the Sheets",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "fruchtig"
+  ],
+  "beschreibung": "Rum und Cognac zu gleichen Teilen mit Orangenlikör und Zitrone: ein kräftiger Verwandter des Sidecar.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Cognac, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "fruchtig": 2,
+   "suess": 1,
+   "herb": 2
+  },
+  "basis": [
+   "rum",
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "golden-dream",
+  "name": "Golden Dream",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Galliano, Orangenlikör, Orangensaft und Sahne: goldgelb, cremig und mit feiner Vanillenote, ein Dessertdrink der 1960er.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Galliano",
+    "v": 42.3
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Galliano, Triple Sec, Orangensaft und Sahne in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und ein paar Sekunden kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 3,
+   "fruchtig": 2,
+   "wuerzig": 1
+  },
+  "basis": [
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "vieux-carre",
+  "name": "Vieux Carré",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "herb"
+  ],
+  "beschreibung": "Rye, Cognac und roter Wermut mit Bénédictine und Peychaud's: benannt nach dem French Quarter von New Orleans, vielschichtig und samtig.",
+  "garnitur": "Orangenzeste und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Rye Whiskey",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Bénédictine",
+    "v": 40,
+    "ml": 5
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Peychaud's Bitters",
+    "v": 35,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Rye, Cognac, Wermut, Bénédictine und Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Orangenzeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 2,
+   "suess": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "whiskey",
+   "brandy",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "corpse-reviver-2",
+  "name": "Corpse Reviver #2",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Orangenlikör, Lillet und Zitrone zu gleichen Teilen mit einem Hauch Absinth: hell, spritzig und überraschend leicht.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cointreau",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Lillet Blanc",
+    "v": 17
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Absinth",
+    "v": 68,
+    "ml": 0.5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Cointreau, Lillet, Zitronensaft und Absinth in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "fruchtig": 2,
+   "herb": 1,
+   "wuerzig": 1,
+   "suess": 1
+  },
+  "basis": [
+   "gin",
+   "likoer",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "last-word",
+  "name": "Last Word",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "sauer"
+  ],
+  "beschreibung": "Gin, grüner Chartreuse, Maraschino und Limette zu gleichen Teilen: kräuterig, scharf ausbalanciert und in Detroit erfunden.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Grüner Chartreuse",
+    "v": 55
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Chartreuse, Maraschino und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "sauer": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "mimosa",
+  "name": "Mimosa",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Bauen",
+  "staerke": 1,
+  "zeit": 1,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Frischer Orangensaft und Prosecco zu gleichen Teilen: der Brunch-Klassiker, in Großbritannien auch Buck's Fizz genannt.",
+  "garnitur": "Orangenzeste (optional)",
+  "zutaten": [
+   {
+    "m": 75,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 75,
+    "e": "ml",
+    "n": "Prosecco",
+    "v": 11
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Orangensaft in die Sektflöte gießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Prosecco vorsichtig dazugießen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Einmal sanft umrühren.",
+    "z": []
+   },
+   {
+    "t": "Nach Wunsch mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 1,
+   "suess": 1
+  },
+  "basis": [
+   "schaumwein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "french-connection",
+  "name": "French Connection",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 4,
+  "zeit": 2,
+  "geschmack": [
+   "süß",
+   "würzig"
+  ],
+  "beschreibung": "Cognac und Amaretto zu gleichen Teilen auf Eis: weich, mandelig und wärmend, ideal nach dem Essen.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 35,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 35,
+    "e": "ml",
+    "n": "Amaretto",
+    "v": 28
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Cognac und Amaretto direkt ins Glas gießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 3,
+   "wuerzig": 2,
+   "herb": 1
+  },
+  "basis": [
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "grasshopper",
+  "name": "Grasshopper",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Grüner Pfefferminzlikör, weißer Kakaolikör und Sahne: knallgrün, cremig und wie ein Minzschokoladen-Dessert.",
+  "garnitur": "Minzblatt (optional)",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Weiße Crème de Cacao",
+    "v": 25
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Grüne Crème de Menthe",
+    "v": 24
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Crème de Cacao, Crème de Menthe und Sahne in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und ein paar Sekunden kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und nach Wunsch mit einem Minzblatt garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 3,
+   "wuerzig": 1
+  },
+  "basis": [
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "vesper",
+  "name": "Vesper",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 5,
+  "zeit": 3,
+  "geschmack": [
+   "herb",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Wodka und Lillet Blanc, geschüttelt statt gerührt: der Martini, den James Bond in Casino Royale bestellt.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Lillet Blanc",
+    "v": 17
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Wodka und Lillet in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "herb": 3,
+   "wuerzig": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "gin",
+   "wodka"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "angel-face",
+  "name": "Angel Face",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "herb"
+  ],
+  "beschreibung": "Gin, Aprikosenlikör und Calvados zu gleichen Teilen: kräftig, mit Steinobst- und Apfelaroma.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Apricot Brandy (Aprikosenlikör)",
+    "v": 24
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Calvados",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Aprikosenlikör und Calvados in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 2,
+   "herb": 2,
+   "suess": 2
+  },
+  "basis": [
+   "gin",
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "hanky-panky",
+  "name": "Hanky Panky",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "bitter",
+   "würzig"
+  ],
+  "beschreibung": "Gin und roter Wermut mit einem Schuss Fernet: im Savoy in London erfunden, süß-bitter und kräuterig.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "London Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Fernet-Branca",
+    "v": 39
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Wermut und Fernet dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 2,
+   "wuerzig": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -1397,6 +3284,1168 @@ window.REZEPTE = [
   "basis": [
    "mezcal",
    "likoer"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "tommys-margarita",
+  "name": "Tommy's Margarita",
+  "kategorie": "modern",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Die Margarita ohne Orangenlikör: Tequila, Limette und Agavensirup, pur und klar.",
+  "garnitur": "Limettenscheibe",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Tequila Reposado (100 % Agave)",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Agavensirup (halb Agavendicksaft, halb Wasser)",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Tequila, Limettensaft und Agavensirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In den Tumbler auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "tequila"
+  ],
+  "stil": [
+   "modern",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "russian-spring-punch",
+  "name": "Russian Spring Punch",
+  "kategorie": "modern",
+  "glas": "Hohes Glas",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Wodka, Zitrone und Cassis, aufgefüllt mit Sekt: beerig, spritzig und frühlingshaft.",
+  "garnitur": "Brombeeren, optional Zitronenscheibe",
+  "zutaten": [
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Crème de Cassis",
+    "v": 15
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sekt zum Auffüllen",
+    "v": 12,
+    "ml": 80
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Hohes Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Zitronensaft, Crème de Cassis und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Sekt auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Brombeeren garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "suess": 2
+  },
+  "basis": [
+   "wodka",
+   "schaumwein"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "lemon-drop-martini",
+  "name": "Lemon Drop Martini",
+  "kategorie": "modern",
+  "glas": "Martiniglas",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "süß"
+  ],
+  "beschreibung": "Zitronenwodka, Orangenlikör und Zitrone im Glas mit Zuckerrand: wie ein Zitronenbonbon zum Trinken.",
+  "garnitur": "Zuckerrand",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zitronenwodka",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rand des Martiniglases mit Zitrone befeuchten und in Zucker tauchen, dann kühlen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Triple Sec und Zitronensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In das vorbereitete Glas abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "wodka",
+   "likoer"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "bees-knees",
+  "name": "Bee's Knees",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "süß"
+  ],
+  "beschreibung": "Gin mit Honig, Zitrone und Orange: ein Drink aus der Prohibitionszeit, frisch und blumig.",
+  "garnitur": "Zitronen- oder Orangenzeste (optional)",
+  "zutaten": [
+   {
+    "m": 52.5,
+    "e": "ml",
+    "n": "Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 2,
+    "e": "TL",
+    "n": "Honigsirup",
+    "v": 0,
+    "ml": 10
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Honigsirup mit Zitronen- und Orangensaft im Shaker verrühren, bis er sich löst.",
+    "z": [
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Gin dazugeben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und nach Wunsch mit Zeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 2,
+   "fruchtig": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "spicy-fifty",
+  "name": "Spicy Fifty",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "süß"
+  ],
+  "beschreibung": "Vanillewodka, Holunderblüte, Limette und Honig mit einem Hauch Chili: süß, blumig und mit leichter Schärfe.",
+  "garnitur": "Rote Chilischote",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Vanillewodka",
+    "v": 37.5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Holunderblütensirup",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Honigsirup",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Scheiben",
+    "n": "Rote Chili, dünn geschnitten",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Holunderblütensirup, Limettensaft, Honigsirup und Chili in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Doppelt in die gekühlte Schale abseihen, damit keine Chilistücke ins Glas kommen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer roten Chilischote garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "sauer": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "wodka"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "southside",
+  "name": "Southside",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "frisch",
+   "sauer"
+  ],
+  "beschreibung": "Gin, Zitrone und frische Minze: wie ein Mojito mit Gin, kühl und klar.",
+  "garnitur": "Minzzweig",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "London Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 6,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß (optional)",
+    "v": 0,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Zitronensaft, Zuckersirup, Minze und nach Wunsch Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken, mit Eiweiß besonders lange.",
+    "z": []
+   },
+   {
+    "t": "Doppelt in die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einem Minzzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "wuerzig": 2,
+   "suess": 1,
+   "herb": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "new-york-sour",
+  "name": "New York Sour",
+  "kategorie": "modern",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "sauer",
+   "fruchtig"
+  ],
+  "beschreibung": "Ein Whiskey Sour mit schwebender Rotweinschicht: zweifarbig, frisch und mit fruchtiger Tiefe.",
+  "garnitur": "Zitronen- oder Orangenzeste mit Kirsche",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Rye Whiskey oder Bourbon",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß",
+    "v": 0,
+    "ml": 5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Kräftiger Rotwein (Shiraz oder Malbec)",
+    "v": 13.5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Zuckersirup, Zitronensaft und Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Rotwein langsam über einen Löffelrücken obenauf gießen, damit er schwimmt.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Zeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1,
+   "herb": 1
+  },
+  "basis": [
+   "whiskey"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "french-martini",
+  "name": "French Martini",
+  "kategorie": "modern",
+  "glas": "Martiniglas",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Wodka, Himbeerlikör und Ananas: samtig, beerig und mit feinem Schaum obenauf.",
+  "garnitur": "Zitronenzeste, nur das Öl darüber ausdrücken",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Himbeerlikör",
+    "v": 16.5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Ananassaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Himbeerlikör und Ananassaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken, damit sich Schaum bildet.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen.",
+    "z": []
+   },
+   {
+    "t": "Zitronenzeste über dem Drink ausdrücken.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "wodka"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "trinidad-sour",
+  "name": "Trinidad Sour",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "bitter",
+   "würzig"
+  ],
+  "beschreibung": "Ein Sour mit einem ganzen Schuss Angostura als Basis: tiefrot, würzig und überraschend rund dank Mandelsirup.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Angostura Bitters",
+    "v": 44.7
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Mandelsirup (Orgeat)",
+    "v": 0
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Rye Whiskey",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Angostura, Mandelsirup, Zitronensaft und Rye in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "wuerzig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "bitter",
+   "whiskey"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "old-cuban",
+  "name": "Old Cuban",
+  "kategorie": "modern",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "frisch",
+   "würzig"
+  ],
+  "beschreibung": "Gereifter Rum, Minze, Limette und Bitters, mit Champagner gekrönt: ein eleganter Mojito für besondere Abende.",
+  "garnitur": "Minzzweig",
+  "zutaten": [
+   {
+    "m": 7,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gereifter Rum",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Champagner oder Prosecco",
+    "v": 12
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Minze, Rum, Limettensaft, Zuckersirup und Bitters in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Champagner auffüllen.",
+    "z": [
+     5
+    ]
+   },
+   {
+    "t": "Mit einem Minzzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "sauer": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "rum",
+   "schaumwein"
+  ],
+  "stil": [
+   "modern",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "illegal",
+  "name": "Illegal",
+  "kategorie": "modern",
+  "glas": "Cocktailschale oder Tonbecher",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "rauchig",
+   "würzig"
+  ],
+  "beschreibung": "Mezcal und kräftiger Jamaika-Rum mit Falernum, Maraschino und Limette: rauchig, würzig und tropisch zugleich.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Mezcal (Espadín)",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Weißer Jamaika-Rum (Overproof)",
+    "v": 63
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Falernum",
+    "v": 11
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Maraschino-Likör",
+    "v": 32,
+    "ml": 5
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Eiweiß (optional)",
+    "v": 0,
+    "ml": 5
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Mezcal, Rum, Falernum, Maraschino, Limettensaft, Zuckersirup und nach Wunsch Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen oder in einem Tonbecher auf Eis servieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "rauchig": 2,
+   "wuerzig": 2,
+   "sauer": 2,
+   "suess": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "mezcal",
+   "rum"
+  ],
+  "stil": [
+   "modern",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "tipperary",
+  "name": "Tipperary",
+  "kategorie": "modern",
+  "glas": "Martiniglas",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "herb"
+  ],
+  "beschreibung": "Irish Whiskey, roter Wermut und grüner Chartreuse: kräftig, kräuterig und angenehm süß.",
+  "garnitur": "Orangenscheibe",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Irish Whiskey",
+    "v": 40
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Grüner Chartreuse",
+    "v": 55
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Whiskey, Wermut, Chartreuse und Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen und mit einer Orangenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 2,
+   "suess": 2,
+   "bitter": 1
+  },
+  "basis": [
+   "whiskey",
+   "likoer"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "vento",
+  "name": "VE.N.TO",
+  "kategorie": "modern",
+  "glas": "Kleiner Tumbler",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "sauer",
+   "blumig"
+  ],
+  "beschreibung": "Milder Grappa mit Zitrone, Honig und Kamille: ein italienischer Sour, sanft und blumig.",
+  "garnitur": "Zitronenzeste und weiße Trauben",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Milder weißer Grappa",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Honigsirup (mit Kamillentee statt Wasser)",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Kamillensirup",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Eiweiß (optional)",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Kleinen Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Grappa, Zitronensaft, Honigsirup, Kamillensirup und nach Wunsch Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Zitronenzeste und weißen Trauben garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 2,
+   "fruchtig": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "grappa"
   ],
   "stil": [
    "modern"
@@ -2174,6 +5223,510 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "planters-punch",
+  "name": "Planter's Punch",
+  "kategorie": "exotisch",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Bauen",
+  "staerke": 3,
+  "zeit": 2,
+  "geschmack": [
+   "süß",
+   "fruchtig"
+  ],
+  "beschreibung": "Jamaika-Rum, Limette und Zuckerrohr: der Urahn der karibischen Punches.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Jamaika-Rum",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zuckerrohrsaft oder Zuckerrohrsirup",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Limettensaft und Zuckerrohrsaft direkt ins Glas geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Umrühren und nach Geschmack mit etwas Wasser oder frischem Saft verlängern.",
+    "z": []
+   },
+   {
+    "t": "Mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 2,
+   "fruchtig": 2,
+   "sauer": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "exotisch"
+  ]
+ },
+ {
+  "id": "canchanchara",
+  "name": "Canchanchara",
+  "kategorie": "exotisch",
+  "glas": "Tumbler oder Tonbecher",
+  "technik": "Bauen",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "süß",
+   "sauer"
+  ],
+  "beschreibung": "Kubas ältester Cocktail: Aguardiente, Honig und Limette, kräftig auf Eis gerührt.",
+  "garnitur": "Limettenspalte",
+  "zutaten": [
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Honig",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Wasser",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Kubanischer Aguardiente (oder weißer Rum)",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Honig, Limettensaft und Wasser im Glas verrühren.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Die Mischung am Boden und an den Seiten des Glases verteilen.",
+    "z": []
+   },
+   {
+    "t": "Mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Aguardiente eingießen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Kräftig von unten nach oben rühren.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Limettenspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 2,
+   "sauer": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "exotisch"
+  ]
+ },
+ {
+  "id": "mary-pickford",
+  "name": "Mary Pickford",
+  "kategorie": "exotisch",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Weißer Rum, Ananas, Maraschino und Grenadine: in Havanna zu Ehren eines Stummfilmstars gemixt.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Frischer Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 5,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Ananassaft, Maraschino und Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "exotisch",
+   "klassiker"
+  ]
+ },
+ {
+  "id": "yellow-bird",
+  "name": "Yellow Bird",
+  "kategorie": "exotisch",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Weißer Rum, Galliano, Orangenlikör und Limette: sonnengelb, mit einem Hauch Vanille und Anis.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Galliano",
+    "v": 42.3
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Triple Sec (Orangenlikör)",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Galliano, Triple Sec und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 2,
+   "suess": 2,
+   "sauer": 2,
+   "wuerzig": 1
+  },
+  "basis": [
+   "rum",
+   "likoer"
+  ],
+  "stil": [
+   "exotisch"
+  ]
+ },
+ {
+  "id": "barracuda",
+  "name": "Barracuda",
+  "kategorie": "exotisch",
+  "glas": "Highball",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Goldener Rum, Galliano und Ananas, aufgefüllt mit Prosecco: tropisch und prickelnd.",
+  "garnitur": "Ananasstück und Kirsche, optional Minzzweig",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Goldener Rum",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Galliano",
+    "v": 42.3
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Frischer Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Frischer Limettensaft",
+    "v": 0,
+    "ml": 1
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Prosecco zum Auffüllen",
+    "v": 11,
+    "ml": 60
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Galliano, Ananassaft und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Prosecco auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Ananas und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "wuerzig": 1
+  },
+  "basis": [
+   "rum",
+   "likoer",
+   "schaumwein"
+  ],
+  "stil": [
+   "exotisch",
+   "modern"
+  ]
+ },
+ {
+  "id": "hemingway-special",
+  "name": "Hemingway Special",
+  "kategorie": "exotisch",
+  "glas": "Große Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "herb"
+  ],
+  "beschreibung": "Der Daiquiri, den Hemingway in Havanna trank: Rum, Grapefruit, Maraschino und Limette, herb und kaum süß.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Weißer Rum",
+    "v": 40
+   },
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Grapefruitsaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Grapefruitsaft, Maraschino und Limettensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "herb": 2,
+   "fruchtig": 2,
+   "bitter": 1
+  },
+  "basis": [
+   "rum",
+   "likoer"
+  ],
+  "stil": [
+   "exotisch",
+   "klassiker"
+  ]
+ },
+ {
   "id": "mojito",
   "name": "Mojito",
   "kategorie": "longdrink",
@@ -2887,6 +6440,574 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "dark-n-stormy",
+  "name": "Dark 'n' Stormy",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Dunkler Rum schwebt auf scharfem Ginger Beer: wie eine Gewitterwolke im Glas.",
+  "garnitur": "Limettenspalte",
+  "zutaten": [
+   {
+    "m": 100,
+    "e": "ml",
+    "n": "Ginger Beer",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Dunkler Rum",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Ginger Beer eingießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Rum langsam über einen Löffelrücken obenauf gießen, damit er schwimmt.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Mit einer Limettenspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "rum"
+  ],
+  "stil": [
+   "longdrink",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "suffering-bastard",
+  "name": "Suffering Bastard",
+  "kategorie": "longdrink",
+  "glas": "Hohes Glas (Collins)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Cognac und Gin mit Limette, Bitters und Ginger Beer: in Kairo als Mittel gegen den Kater erfunden.",
+  "garnitur": "Minzzweige, optional Orangenscheibe",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Cognac oder Brandy",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Ginger Beer zum Auffüllen",
+    "v": 0,
+    "ml": 90
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cognac, Gin, Limettensaft und Bitters in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Mitsamt Eis in ein hohes Glas schütten, nicht abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Ginger Beer auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Minzzweigen garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "herb": 1,
+   "sauer": 1,
+   "suess": 1
+  },
+  "basis": [
+   "brandy",
+   "gin"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "fernandito",
+  "name": "Fernandito",
+  "kategorie": "longdrink",
+  "glas": "Tumbler (Doppel-Rocks)",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 1,
+  "geschmack": [
+   "bitter",
+   "würzig"
+  ],
+  "beschreibung": "Fernet mit Cola: in Argentinien der Nationaldrink, herb-kräuterig und überraschend erfrischend.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Fernet-Branca",
+    "v": 39
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Cola zum Auffüllen",
+    "v": 0,
+    "ml": 150
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Fernet eingießen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit Cola auffüllen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 3,
+   "wuerzig": 3,
+   "suess": 2
+  },
+  "basis": [
+   "bitter"
+  ],
+  "stil": [
+   "longdrink",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "horses-neck",
+  "name": "Horse's Neck",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Cognac mit Ginger Ale und einer langen Zitronenspirale, die wie ein Pferdehals aus dem Glas ragt.",
+  "garnitur": "Lange Zitronenschalen-Spirale",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Ginger Ale",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "Dash",
+    "n": "Angostura Bitters (optional)",
+    "v": 44.7,
+    "ml": 0.2
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Zitronenschale in einer langen Spirale abschälen und ins Glas hängen.",
+    "z": []
+   },
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Cognac und Ginger Ale direkt ins Glas gießen.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Sanft umrühren und nach Wunsch einen Spritzer Angostura dazugeben.",
+    "z": [
+     2
+    ]
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "brandy"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "sea-breeze",
+  "name": "Sea Breeze",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Wodka mit Cranberry und Grapefruit: herb-fruchtig, leicht und so erfrischend wie eine Meeresbrise.",
+  "garnitur": "Orangenzeste und Kirsche",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Cranberrysaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Grapefruitsaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Cranberrysaft und Grapefruitsaft direkt ins Glas gießen.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Kurz umrühren.",
+    "z": []
+   },
+   {
+    "t": "Mit Orangenzeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "herb": 1,
+   "suess": 1
+  },
+  "basis": [
+   "wodka"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "john-collins",
+  "name": "John Collins",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Zitrone, Zucker und Soda auf Eis: der erfrischende Urvater der Collins-Familie. Mit Old Tom Gin wird daraus ein Tom Collins.",
+  "garnitur": "Zitronenscheibe und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Sodawasser",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Zitronensaft und Zuckersirup ins Glas geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Sodawasser auffüllen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Sanft umrühren und mit Zitronenscheibe und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Variante Tom Collins: Old Tom Gin statt London Dry Gin verwenden.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "suess": 1,
+   "herb": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "longdrink"
+  ]
+ },
+ {
+  "id": "bloody-mary",
+  "name": "Bloody Mary",
+  "kategorie": "longdrink",
+  "glas": "Tumbler oder Highball",
+  "technik": "Rühren",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "salzig",
+   "würzig"
+  ],
+  "beschreibung": "Wodka mit Tomatensaft, Zitrone und kräftiger Würze: der herzhafte Klassiker für den späten Vormittag.",
+  "garnitur": "Selleriestange, optional Zitronenspalte",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   },
+   {
+    "m": 90,
+    "e": "ml",
+    "n": "Tomatensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Worcestersauce",
+    "v": 0,
+    "ml": 0.6
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Tabasco",
+    "v": 0,
+    "ml": 0.4
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Selleriesalz",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Schwarzer Pfeffer",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka, Tomatensaft und Zitronensaft dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Worcestersauce, Tabasco, Selleriesalz und Pfeffer abschmecken.",
+    "z": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "t": "Sanft rühren und in einen Tumbler gießen, auf Wunsch auf Eis im Highball.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Selleriestange garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Alkoholfreie Variante: Virgin Mary.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "salzig": 3,
+   "wuerzig": 3,
+   "sauer": 1
+  },
+  "basis": [
+   "wodka"
+  ],
+  "stil": [
+   "longdrink",
+   "klassiker"
+  ]
+ },
+ {
   "id": "virgin-colada",
   "name": "Virgin Colada",
   "kategorie": "alkoholfrei",
@@ -3386,6 +7507,584 @@ window.REZEPTE = [
   "stil": [
    "alkoholfrei",
    "exotisch"
+  ]
+ },
+ {
+  "id": "virgin-mary",
+  "name": "Virgin Mary",
+  "kategorie": "alkoholfrei",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Rühren",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "salzig",
+   "würzig"
+  ],
+  "beschreibung": "Die Bloody Mary ohne Wodka: Tomatensaft, Zitrone und ordentlich Würze, herzhaft statt süß.",
+  "garnitur": "Selleriestange und Zitronenspalte",
+  "zutaten": [
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Tomatensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Worcestersauce",
+    "v": 0,
+    "ml": 0.6
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Tabasco",
+    "v": 0,
+    "ml": 0.4
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Selleriesalz",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Schwarzer Pfeffer",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Tomatensaft und Zitronensaft dazugeben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Mit Worcestersauce, Tabasco, Selleriesalz und Pfeffer würzen.",
+    "z": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "t": "Sanft rühren und in einen Tumbler auf Eis gießen.",
+    "z": []
+   },
+   {
+    "t": "Mit Selleriestange und Zitronenspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante der IBA-Bloody-Mary, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "salzig": 3,
+   "wuerzig": 3,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
+  ]
+ },
+ {
+  "id": "ipanema",
+  "name": "Ipanema",
+  "kategorie": "alkoholfrei",
+  "glas": "Tumbler (Doppel-Rocks)",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Die alkoholfreie Schwester der Caipirinha: Limette, brauner Zucker, Maracuja und Ginger Ale auf crushed Eis.",
+  "garnitur": "Limettenscheibe",
+  "zutaten": [
+   {
+    "m": 0.5,
+    "e": "Stk",
+    "n": "Limette, in Achtel geschnitten",
+    "v": 0,
+    "ml": 15
+   },
+   {
+    "m": 2,
+    "e": "BL",
+    "n": "Brauner Rohrzucker",
+    "v": 0,
+    "ml": 4
+   },
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Maracujasaft",
+    "v": 0
+   },
+   {
+    "m": 100,
+    "e": "ml",
+    "n": "Ginger Ale",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Limettenachtel und Rohrzucker ins Glas geben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Kräftig andrücken, bis der Saft austritt und sich der Zucker löst.",
+    "z": []
+   },
+   {
+    "t": "Glas mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Maracujasaft eingießen.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Mit Ginger Ale auffüllen und kurz umrühren.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Mit einer Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 2,
+   "suess": 2
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "cinderella",
+  "name": "Cinderella",
+  "kategorie": "alkoholfrei",
+  "glas": "Hohes Glas",
+  "technik": "Shaken",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Orange, Ananas und Zitrone mit einem Hauch Grenadine und Soda: der klassische Fruchtcocktail ohne Alkohol.",
+  "garnitur": "Orangenscheibe und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sodawasser zum Auffüllen",
+    "v": 0,
+    "ml": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Hohes Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Orangen-, Ananas- und Zitronensaft mit Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Sodawasser auffüllen.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Orangenscheibe und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreier Klassiker nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
+  ]
+ },
+ {
+  "id": "virgin-sunrise",
+  "name": "Virgin Sunrise",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Der Tequila Sunrise ohne Tequila: Orangensaft mit Grenadine, die wie ein Sonnenaufgang im Glas absinkt.",
+  "garnitur": "Orangenscheibe und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 150,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Orangensaft und Limettensaft eingießen und kurz umrühren.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Grenadine langsam am Glasrand hineinlaufen lassen, damit sie nach unten sinkt.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Nicht umrühren. Mit Orangenscheibe und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "virgin-sex-on-the-beach",
+  "name": "Virgin Sex on the Beach",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Shaken",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Orange, Cranberry und Pfirsich ohne Alkohol: die fruchtige Strandvariante für alle, die fahren oder einfach keinen Alkohol wollen.",
+  "garnitur": "Orangenscheibe",
+  "zutaten": [
+   {
+    "m": 80,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 80,
+    "e": "ml",
+    "n": "Cranberrysaft",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Pfirsichsirup",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Orangensaft, Cranberrysaft, Pfirsichsirup und Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kurz shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einer Orangenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 3,
+   "sauer": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "virgin-mule",
+  "name": "Virgin Mule",
+  "kategorie": "alkoholfrei",
+  "glas": "Kupferbecher",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 2,
+  "geschmack": [
+   "würzig",
+   "frisch"
+  ],
+  "beschreibung": "Der Moscow Mule ohne Wodka: scharfes Ginger Beer, Limette und Minze im eiskalten Kupferbecher.",
+  "garnitur": "Limettenscheibe und Minzzweig",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 150,
+    "e": "ml",
+    "n": "Ginger Beer",
+    "v": 0
+   },
+   {
+    "m": 4,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Becher mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Limettensaft hineingeben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit Ginger Beer auffüllen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Minzblätter kurz zwischen den Händen klatschen und dazugeben.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Kurz umrühren und mit Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "sauer": 2,
+   "suess": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
+  ]
+ },
+ {
+  "id": "roy-rogers",
+  "name": "Roy Rogers",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 1,
+  "geschmack": [
+   "süß",
+   "fruchtig"
+  ],
+  "beschreibung": "Cola mit Grenadine und Kirsche: der alkoholfreie Klassiker, das Gegenstück zum Shirley Temple.",
+  "garnitur": "Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 200,
+    "e": "ml",
+    "n": "Cola",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Mit Cola auffüllen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Grenadine dazugeben und kurz umrühren.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Mit einer Cocktailkirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreier Klassiker nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 3,
+   "fruchtig": 2
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
   ]
  }
 ];
