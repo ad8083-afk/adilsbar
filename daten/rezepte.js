@@ -2690,6 +2690,158 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "angel-face",
+  "name": "Angel Face",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "herb"
+  ],
+  "beschreibung": "Gin, Aprikosenlikör und Calvados zu gleichen Teilen: kräftig, mit Steinobst- und Apfelaroma.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Apricot Brandy (Aprikosenlikör)",
+    "v": 24
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Calvados",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Aprikosenlikör und Calvados in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 2,
+   "herb": 2,
+   "suess": 2
+  },
+  "basis": [
+   "gin",
+   "brandy",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "hanky-panky",
+  "name": "Hanky Panky",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "bitter",
+   "würzig"
+  ],
+  "beschreibung": "Gin und roter Wermut mit einem Schuss Fernet: im Savoy in London erfunden, süß-bitter und kräuterig.",
+  "garnitur": "Orangenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "London Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Fernet-Branca",
+    "v": 39
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Wermut und Fernet dazugeben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Orangenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "bitter": 2,
+   "wuerzig": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -7866,6 +8018,69 @@ window.REZEPTE = [
    "wuerzig": 3,
    "sauer": 2,
    "suess": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei"
+  ]
+ },
+ {
+  "id": "roy-rogers",
+  "name": "Roy Rogers",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 1,
+  "geschmack": [
+   "süß",
+   "fruchtig"
+  ],
+  "beschreibung": "Cola mit Grenadine und Kirsche: der alkoholfreie Klassiker, das Gegenstück zum Shirley Temple.",
+  "garnitur": "Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 200,
+    "e": "ml",
+    "n": "Cola",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Highball-Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Mit Cola auffüllen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Grenadine dazugeben und kurz umrühren.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Mit einer Cocktailkirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreier Klassiker nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 3,
+   "fruchtig": 2
   },
   "basis": [],
   "stil": [
