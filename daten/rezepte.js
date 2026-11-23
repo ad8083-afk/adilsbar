@@ -2842,6 +2842,191 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "martinez",
+  "name": "Martinez",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "würzig",
+   "süß"
+  ],
+  "beschreibung": "Gin und roter Wermut zu gleichen Teilen mit Maraschino und Orangenbitter: der Vorfahre des Martini, runder und süßer.",
+  "garnitur": "Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "London Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Roter Wermut",
+    "v": 16
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Maraschino-Likör",
+    "v": 32,
+    "ml": 5
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Orange Bitters",
+    "v": 28,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Wermut, Maraschino und Orange Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit Zitronenzeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 2,
+   "bitter": 1
+  },
+  "basis": [
+   "gin",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "champagne-cocktail",
+  "name": "Champagne Cocktail",
+  "kategorie": "klassiker",
+  "glas": "Sektflöte",
+  "technik": "Bauen",
+  "staerke": 2,
+  "zeit": 2,
+  "geschmack": [
+   "frisch",
+   "herb"
+  ],
+  "beschreibung": "Ein mit Bitters getränkter Zuckerwürfel, ein Schuss Cognac und eiskalter Champagner: perlend und festlich.",
+  "garnitur": "Orangenzeste und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 1,
+    "e": "Stk",
+    "n": "Zuckerwürfel",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Angostura Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Cognac",
+    "v": 40
+   },
+   {
+    "m": 90,
+    "e": "ml",
+    "n": "Champagner, gut gekühlt",
+    "v": 12
+   },
+   {
+    "m": 1,
+    "e": "Spritzer",
+    "n": "Grand Marnier (optional)",
+    "v": 40,
+    "ml": 1
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Zuckerwürfel ins Glas legen und mit Angostura tränken.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Cognac dazugeben.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Vorsichtig mit kaltem Champagner auffüllen.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Nach Wunsch ein paar Tropfen Grand Marnier dazugeben.",
+    "z": [
+     4
+    ]
+   },
+   {
+    "t": "Mit Orangenzeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "herb": 2,
+   "suess": 1,
+   "fruchtig": 1,
+   "bitter": 1
+  },
+  "basis": [
+   "schaumwein",
+   "brandy"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -7001,6 +7186,134 @@ window.REZEPTE = [
   },
   "basis": [
    "wodka"
+  ],
+  "stil": [
+   "longdrink",
+   "klassiker"
+  ]
+ },
+ {
+  "id": "ramos-fizz",
+  "name": "Ramos Fizz",
+  "kategorie": "longdrink",
+  "glas": "Highball",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 6,
+  "geschmack": [
+   "cremig",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Zitrus, Sahne, Eiweiß und Orangenblütenwasser, lange geshakt: wolkig-leicht mit hoher Schaumkrone, aus New Orleans.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Eiweiß",
+    "v": 0
+   },
+   {
+    "m": 3,
+    "e": "Dash",
+    "n": "Orangenblütenwasser",
+    "v": 0,
+    "ml": 0.6
+   },
+   {
+    "m": 2,
+    "e": "Tropfen",
+    "n": "Vanilleextrakt",
+    "v": 0,
+    "ml": 0.1
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sodawasser zum Auffüllen",
+    "v": 0,
+    "ml": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Alle Zutaten außer Soda mit Eis in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "t": "Zwei Minuten kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Doppelt abseihen und zurück in den Shaker geben.",
+    "z": []
+   },
+   {
+    "t": "Ohne Eis noch eine Minute kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In ein Highball-Glas gießen.",
+    "z": []
+   },
+   {
+    "t": "Mit Soda auffüllen, bis der Schaum über den Rand steigt.",
+    "z": [
+     8
+    ]
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "sauer": 2,
+   "suess": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin"
   ],
   "stil": [
    "longdrink",
