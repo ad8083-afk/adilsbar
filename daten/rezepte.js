@@ -3027,6 +3027,267 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "brandy-crusta",
+  "name": "Brandy Crusta",
+  "kategorie": "klassiker",
+  "glas": "Schmales Cocktailglas",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 5,
+  "geschmack": [
+   "sauer",
+   "würzig"
+  ],
+  "beschreibung": "Brandy mit Maraschino, Curaçao, Zitrone und Bitters im Glas mit Zuckerrand und langer Zitrusschale: ein Klassiker aus dem New Orleans der 1850er.",
+  "garnitur": "Zuckerrand und lange Orangen- oder Zitronenschale im Glas",
+  "zutaten": [
+   {
+    "m": 52.5,
+    "e": "ml",
+    "n": "Brandy",
+    "v": 40
+   },
+   {
+    "m": 7.5,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Curaçao",
+    "v": 30,
+    "ml": 5
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "BL",
+    "n": "Zuckersirup",
+    "v": 0,
+    "ml": 5
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Aromatic Bitters",
+    "v": 44.7,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glasrand mit einer Orangen- oder Zitronenscheibe einreiben und in Zucker tauchen.",
+    "z": []
+   },
+   {
+    "t": "Eine lange Zitrusschale innen ins Glas legen.",
+    "z": []
+   },
+   {
+    "t": "Brandy, Maraschino, Curaçao, Zitronensaft, Zuckersirup und Bitters mit Eis ins Rührglas geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In das vorbereitete Glas abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "wuerzig": 2,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "brandy"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "casino",
+  "name": "Casino",
+  "kategorie": "klassiker",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "herb"
+  ],
+  "beschreibung": "Old Tom Gin mit Maraschino, Zitrone und Orangenbitter auf Eis: ein schlanker, zitrusfrischer Klassiker.",
+  "garnitur": "Zitronenzeste und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Old Tom Gin",
+    "v": 40
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Maraschino-Likör",
+    "v": 32
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 2,
+    "e": "Dash",
+    "n": "Orange Bitters",
+    "v": 28,
+    "ml": 0.4
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Maraschino, Zitronensaft und Orange Bitters in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen und mit Zeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "herb": 2,
+   "suess": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "porto-flip",
+  "name": "Porto Flip",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "süß"
+  ],
+  "beschreibung": "Tawny Port mit einem Schuss Brandy und Eigelb, kräftig geshakt: samtig, nussig und wie ein flüssiges Dessert.",
+  "garnitur": "Frisch geriebene Muskatnuss",
+  "zutaten": [
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Brandy",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Tawny Portwein",
+    "v": 20
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Eigelb",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Brandy, Portwein und Eigelb in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und sehr kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   },
+   {
+    "t": "Etwas Muskatnuss darüberreiben.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "suess": 2,
+   "fruchtig": 1,
+   "wuerzig": 1
+  },
+  "basis": [
+   "portwein",
+   "brandy"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
