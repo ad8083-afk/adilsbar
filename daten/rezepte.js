@@ -3288,6 +3288,174 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "paradise",
+  "name": "Paradise",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "süß"
+  ],
+  "beschreibung": "Gin mit Aprikosenlikör und Orangensaft: fruchtig, sonnig und leicht zu trinken.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Apricot Brandy (Aprikosenlikör)",
+    "v": 24
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Aprikosenlikör und Orangensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "suess": 2,
+   "herb": 1
+  },
+  "basis": [
+   "gin",
+   "likoer"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "tuxedo",
+  "name": "Tuxedo",
+  "kategorie": "klassiker",
+  "glas": "Martiniglas",
+  "technik": "Rühren",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "herb",
+   "würzig"
+  ],
+  "beschreibung": "Old Tom Gin und trockener Wermut mit Maraschino, Absinth und Orangenbitter: ein feiner, vielschichtiger Martini-Verwandter.",
+  "garnitur": "Cocktailkirsche und Zitronenzeste",
+  "zutaten": [
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Old Tom Gin",
+    "v": 40
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Trockener Wermut",
+    "v": 18
+   },
+   {
+    "m": 0.5,
+    "e": "BL",
+    "n": "Maraschino-Likör",
+    "v": 32,
+    "ml": 2.5
+   },
+   {
+    "m": 0.25,
+    "e": "BL",
+    "n": "Absinth",
+    "v": 68,
+    "ml": 1.25
+   },
+   {
+    "m": 3,
+    "e": "Dash",
+    "n": "Orange Bitters",
+    "v": 28,
+    "ml": 0.6
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Martiniglas kühlen.",
+    "z": []
+   },
+   {
+    "t": "Rührglas mit Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Wermut, Maraschino, Absinth und Orange Bitters dazugeben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Gut rühren, bis alles kalt ist.",
+    "z": []
+   },
+   {
+    "t": "In das gekühlte Glas abseihen und mit Kirsche und Zeste garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "herb": 3,
+   "wuerzig": 2,
+   "bitter": 1,
+   "suess": 1
+  },
+  "basis": [
+   "gin",
+   "wermut"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
@@ -8659,6 +8827,85 @@ window.REZEPTE = [
   "basis": [],
   "stil": [
    "alkoholfrei"
+  ]
+ },
+ {
+  "id": "virgin-paloma",
+  "name": "Virgin Paloma",
+  "kategorie": "alkoholfrei",
+  "glas": "Highball",
+  "technik": "Bauen",
+  "staerke": 0,
+  "zeit": 2,
+  "geschmack": [
+   "sauer",
+   "salzig"
+  ],
+  "beschreibung": "Grapefruit-Limonade, Limette und eine Prise Salz am Rand: die mexikanische Paloma ohne Tequila, herb und erfrischend.",
+  "garnitur": "Salzrand und Grapefruitspalte",
+  "zutaten": [
+   {
+    "m": 1,
+    "e": "Prise",
+    "n": "Salz für den Rand",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 150,
+    "e": "ml",
+    "n": "Grapefruit-Limonade",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glasrand mit Limette befeuchten und in Salz tauchen.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Limettensaft hineingeben.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Mit Grapefruit-Limonade auffüllen und kurz umrühren.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Mit einer Grapefruitspalte garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreie Variante nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 2,
+   "salzig": 2,
+   "fruchtig": 2,
+   "herb": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
   ]
  }
 ];
