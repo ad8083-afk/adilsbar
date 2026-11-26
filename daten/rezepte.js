@@ -3456,6 +3456,222 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "monkey-gland",
+  "name": "Monkey Gland",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "würzig"
+  ],
+  "beschreibung": "Gin und Orangensaft mit Grenadine und einem Löffel Absinth: fruchtig, mit kräuterigem Anis-Nachklang, aus dem Paris der 1920er.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Dry Gin",
+    "v": 40
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Frischer Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 1,
+    "e": "EL",
+    "n": "Absinth",
+    "v": 68,
+    "ml": 15
+   },
+   {
+    "m": 1,
+    "e": "EL",
+    "n": "Grenadine",
+    "v": 0,
+    "ml": 15
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Orangensaft, Absinth und Grenadine in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "wuerzig": 2,
+   "suess": 2
+  },
+  "basis": [
+   "gin",
+   "absinth"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "kir",
+  "name": "Kir",
+  "kategorie": "klassiker",
+  "glas": "Weinglas",
+  "technik": "Bauen",
+  "staerke": 1,
+  "zeit": 1,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Trockener Weißwein mit einem Schuss Crème de Cassis: der burgundische Aperitif. Mit Champagner statt Wein wird daraus ein Kir Royal.",
+  "garnitur": "Keine",
+  "zutaten": [
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Crème de Cassis",
+    "v": 15
+   },
+   {
+    "m": 90,
+    "e": "ml",
+    "n": "Trockener Weißwein, gekühlt",
+    "v": 12
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Crème de Cassis ins Glas geben.",
+    "z": [
+     0
+    ]
+   },
+   {
+    "t": "Mit gekühltem Weißwein auffüllen.",
+    "z": [
+     1
+    ]
+   },
+   {
+    "t": "Einmal sanft umrühren.",
+    "z": []
+   }
+  ],
+  "quelle": "IBA",
+  "hinweis": "Variante Kir Royal: Champagner statt Weißwein verwenden.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "sauer": 1,
+   "suess": 1
+  },
+  "basis": [
+   "wein"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
+  "id": "gimlet",
+  "name": "Gimlet",
+  "kategorie": "klassiker",
+  "glas": "Cocktailschale",
+  "technik": "Shaken",
+  "staerke": 4,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Gin, Limette und Zucker: kurz, klar und knackig sauer, einst der Drink der britischen Marine.",
+  "garnitur": "Limettenscheibe",
+  "zutaten": [
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Cocktailschale kühlen.",
+    "z": []
+   },
+   {
+    "t": "Gin, Limettensaft und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In die gekühlte Schale abseihen und mit einer Limettenscheibe garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Klassiker außerhalb der IBA-Liste, Mengen nach gängiger Spezifikation.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "herb": 1,
+   "suess": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "klassiker"
+  ]
+ },
+ {
   "id": "espresso-martini",
   "name": "Espresso Martini",
   "kategorie": "modern",
