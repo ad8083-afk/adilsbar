@@ -5282,6 +5282,176 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "amaretto-sour",
+  "name": "Amaretto Sour",
+  "kategorie": "modern",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 2,
+  "zeit": 4,
+  "geschmack": [
+   "süß",
+   "sauer"
+  ],
+  "beschreibung": "Mandellikör, Zitrone und eine seidige Schaumkrone: süß-sauer, weich und ein Liebling vieler Bars.",
+  "garnitur": "Zitronenzeste und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Amaretto",
+    "v": 28
+   },
+   {
+    "m": 30,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Eiweiß",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Amaretto, Zitronensaft, Zuckersirup und Eiweiß in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Zuerst ohne Eis kräftig shaken (Dry Shake), damit der Schaum entsteht.",
+    "z": []
+   },
+   {
+    "t": "Eis hinzufügen und nochmals kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "In einen Tumbler auf frisches Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit Zitronenzeste und Kirsche garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Bekannter Klassiker außerhalb der IBA-Liste, Mengen nach gängiger Spezifikation.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "suess": 3,
+   "sauer": 2,
+   "cremig": 1,
+   "fruchtig": 1
+  },
+  "basis": [
+   "likoer"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
+  "id": "gin-basil-smash",
+  "name": "Gin Basil Smash",
+  "kategorie": "modern",
+  "glas": "Tumbler (Rocks)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 4,
+  "geschmack": [
+   "frisch",
+   "würzig"
+  ],
+  "beschreibung": "Gin, Zitrone und eine Handvoll frisches Basilikum, kräftig geshakt: knallgrün, kräuterig und 2008 in Hamburg erfunden.",
+  "garnitur": "Basilikumzweig",
+  "zutaten": [
+   {
+    "m": 12,
+    "e": "Blätter",
+    "n": "Frisches Basilikum",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 25,
+    "e": "ml",
+    "n": "Frischer Zitronensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   },
+   {
+    "m": 60,
+    "e": "ml",
+    "n": "Gin",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Basilikum mit Zitronensaft und Zuckersirup im Shaker kräftig andrücken.",
+    "z": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "t": "Gin dazugeben.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Doppelt in einen Tumbler auf frisches Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Mit einem Basilikumzweig garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Moderner Klassiker außerhalb der IBA-Liste, Mengen nach gängiger Spezifikation.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "wuerzig": 3,
+   "sauer": 2,
+   "herb": 1,
+   "suess": 1
+  },
+  "basis": [
+   "gin"
+  ],
+  "stil": [
+   "modern"
+  ]
+ },
+ {
   "id": "pina-colada",
   "name": "Piña Colada",
   "kategorie": "exotisch",
@@ -7963,6 +8133,103 @@ window.REZEPTE = [
   "stil": [
    "longdrink",
    "klassiker"
+  ]
+ },
+ {
+  "id": "hugo",
+  "name": "Hugo",
+  "kategorie": "longdrink",
+  "glas": "Weinglas",
+  "technik": "Bauen",
+  "staerke": 1,
+  "zeit": 2,
+  "geschmack": [
+   "fruchtig",
+   "frisch"
+  ],
+  "beschreibung": "Prosecco mit Holunderblütensirup, Minze, Limette und Soda: der leichte, blumige Sommer-Spritz aus Südtirol.",
+  "garnitur": "Minzzweig und Limettenscheibe",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Holunderblütensirup",
+    "v": 0
+   },
+   {
+    "m": 4,
+    "e": "Blätter",
+    "n": "Frische Minze",
+    "v": 0,
+    "ml": 0
+   },
+   {
+    "m": 120,
+    "e": "ml",
+    "n": "Prosecco",
+    "v": 11
+   },
+   {
+    "m": null,
+    "e": "",
+    "n": "Sodawasser (ein Schuss)",
+    "v": 0,
+    "ml": 30
+   },
+   {
+    "m": 1,
+    "e": "Scheibe",
+    "n": "Limette",
+    "v": 0,
+    "ml": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Weinglas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Holunderblütensirup und Minzblätter hineingeben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Mit Prosecco auffüllen.",
+    "z": [
+     2
+    ]
+   },
+   {
+    "t": "Einen Schuss Soda dazugeben und sanft umrühren.",
+    "z": [
+     3
+    ]
+   },
+   {
+    "t": "Mit Limettenscheibe und Minzzweig garnieren.",
+    "z": [
+     4
+    ]
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Bekannter Aperitif außerhalb der IBA-Liste, Mengen nach gängiger Spezifikation.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 2,
+   "suess": 2,
+   "wuerzig": 1,
+   "sauer": 1
+  },
+  "basis": [
+   "schaumwein"
+  ],
+  "stil": [
+   "longdrink"
   ]
  },
  {
