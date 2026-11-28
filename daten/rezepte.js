@@ -6727,6 +6727,94 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "jungle-bird",
+  "name": "Jungle Bird",
+  "kategorie": "exotisch",
+  "glas": "Tumbler (Doppel-Rocks)",
+  "technik": "Shaken",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "fruchtig",
+   "bitter"
+  ],
+  "beschreibung": "Dunkler Rum, Campari, Ananas und Limette: ein Tiki-Drink aus Kuala Lumpur, tropisch-fruchtig mit bitterem Biss.",
+  "garnitur": "Ananasstück",
+  "zutaten": [
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Dunkler Rum",
+    "v": 40
+   },
+   {
+    "m": 22.5,
+    "e": "ml",
+    "n": "Campari",
+    "v": 25
+   },
+   {
+    "m": 45,
+    "e": "ml",
+    "n": "Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Frischer Limettensaft",
+    "v": 0
+   },
+   {
+    "m": 15,
+    "e": "ml",
+    "n": "Zuckersirup",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Tumbler mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Rum, Campari, Ananassaft, Limettensaft und Zuckersirup in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen und mit einem Ananasstück garnieren.",
+    "z": []
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Bekannter Tiki-Klassiker außerhalb der IBA-Liste, Mengen nach gängiger Spezifikation.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "fruchtig": 3,
+   "bitter": 2,
+   "suess": 2,
+   "sauer": 1
+  },
+  "basis": [
+   "rum",
+   "bitter"
+  ],
+  "stil": [
+   "exotisch"
+  ]
+ },
+ {
   "id": "mojito",
   "name": "Mojito",
   "kategorie": "longdrink",
@@ -8233,6 +8321,82 @@ window.REZEPTE = [
   ]
  },
  {
+  "id": "caipiroska",
+  "name": "Caipiroska",
+  "kategorie": "longdrink",
+  "glas": "Tumbler (Doppel-Rocks)",
+  "technik": "Bauen",
+  "staerke": 3,
+  "zeit": 3,
+  "geschmack": [
+   "sauer",
+   "frisch"
+  ],
+  "beschreibung": "Die Caipirinha mit Wodka statt Cachaça: Limette und Rohrzucker auf crushed Eis, klar und spritzig.",
+  "garnitur": "Limettenachtel",
+  "zutaten": [
+   {
+    "m": 0.5,
+    "e": "Stk",
+    "n": "Limette, in Achtel geschnitten",
+    "v": 0,
+    "ml": 15
+   },
+   {
+    "m": 2,
+    "e": "BL",
+    "n": "Weißer Rohrzucker",
+    "v": 0,
+    "ml": 4
+   },
+   {
+    "m": 50,
+    "e": "ml",
+    "n": "Wodka",
+    "v": 40
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Limettenachtel und Rohrzucker ins Glas geben.",
+    "z": [
+     0,
+     1
+    ]
+   },
+   {
+    "t": "Kräftig andrücken, bis der Saft austritt.",
+    "z": []
+   },
+   {
+    "t": "Glas mit crushed Eis füllen.",
+    "z": []
+   },
+   {
+    "t": "Wodka darübergießen und gut umrühren.",
+    "z": [
+     2
+    ]
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Bekannte Variante der Caipirinha, Mengen nach gängiger Spezifikation.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "sauer": 3,
+   "suess": 2,
+   "fruchtig": 1
+  },
+  "basis": [
+   "wodka"
+  ],
+  "stil": [
+   "longdrink",
+   "exotisch"
+  ]
+ },
+ {
   "id": "virgin-colada",
   "name": "Virgin Colada",
   "kategorie": "alkoholfrei",
@@ -9384,6 +9548,96 @@ window.REZEPTE = [
    "salzig": 2,
    "fruchtig": 2,
    "herb": 1
+  },
+  "basis": [],
+  "stil": [
+   "alkoholfrei",
+   "exotisch"
+  ]
+ },
+ {
+  "id": "coconut-kiss",
+  "name": "Coconut Kiss",
+  "kategorie": "alkoholfrei",
+  "glas": "Hurricane-Glas",
+  "technik": "Shaken",
+  "staerke": 0,
+  "zeit": 3,
+  "geschmack": [
+   "cremig",
+   "fruchtig"
+  ],
+  "beschreibung": "Kokossirup, Sahne, Ananas- und Orangensaft mit Grenadine: cremig, süß und ein Klassiker auf jeder alkoholfreien Karte.",
+  "garnitur": "Ananasstück und Cocktailkirsche",
+  "zutaten": [
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Kokossirup",
+    "v": 0
+   },
+   {
+    "m": 20,
+    "e": "ml",
+    "n": "Sahne",
+    "v": 0
+   },
+   {
+    "m": 80,
+    "e": "ml",
+    "n": "Ananassaft",
+    "v": 0
+   },
+   {
+    "m": 40,
+    "e": "ml",
+    "n": "Orangensaft",
+    "v": 0
+   },
+   {
+    "m": 10,
+    "e": "ml",
+    "n": "Grenadine",
+    "v": 0
+   }
+  ],
+  "schritte": [
+   {
+    "t": "Glas mit Eiswürfeln füllen.",
+    "z": []
+   },
+   {
+    "t": "Kokossirup, Sahne, Ananassaft und Orangensaft in den Shaker geben.",
+    "z": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "t": "Mit Eis füllen und kräftig shaken.",
+    "z": []
+   },
+   {
+    "t": "Ins Glas auf das Eis abseihen.",
+    "z": []
+   },
+   {
+    "t": "Grenadine langsam hineinlaufen lassen und mit Ananas und Kirsche garnieren.",
+    "z": [
+     4
+    ]
+   }
+  ],
+  "quelle": "Standardrezept",
+  "hinweis": "Alkoholfreier Klassiker nach gängigem Standardrezept, Mengen redaktionell festgelegt.",
+  "bild": "",
+  "credit": null,
+  "profil": {
+   "cremig": 3,
+   "fruchtig": 3,
+   "suess": 3
   },
   "basis": [],
   "stil": [
